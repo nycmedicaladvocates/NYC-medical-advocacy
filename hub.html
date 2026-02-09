@@ -4,280 +4,87 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>All Resources • Washington Heights Medical Advocacy</title>
-  <style>
-    :root{
-      --navy:#0b1c2d; --soft:#f6f7f9; --text:#111; --muted:#4a4a4a;
-      --border:#e6e6e6; --danger:#b00020; --shadow:0 10px 24px rgba(0,0,0,.08); --radius:16px;
-    }
-    *{ box-sizing:border-box; }
-    body{ margin:0; font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; line-height:1.55; color:var(--text); background:#fff; }
-    header{ background:var(--navy); color:#fff; padding:22px 18px; }
-    .wrap{ max-width:1100px; margin:0 auto; }
-    nav{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:10px; }
-    nav a{
-      display:inline-block; padding:10px 12px; border-radius:999px;
-      border:1px solid rgba(255,255,255,.55); color:#fff; text-decoration:none; font-weight:900;
-    }
-    nav a.primary{ background:#fff; color:var(--navy); border-color:#fff; }
-    h1{ margin:8px 0 6px; font-size:28px; }
-    .sub{ margin:0; color:#e9eef5; max-width:980px; }
-    .badge{
-      display:inline-block; margin-top:10px; padding:8px 12px; border-radius:999px;
-      background:rgba(255,255,255,.12); border:1px solid rgba(255,255,255,.18);
-      font-weight:900;
-    }
-
-    main{ max-width:1100px; margin:0 auto; padding:18px; }
-    .grid{ display:grid; gap:14px; }
-    @media (min-width: 950px){
-      .cols-2{ grid-template-columns:1fr 1fr; }
-      .cols-3{ grid-template-columns:1fr 1fr 1fr; }
-    }
-
-    .card{
-      border:1px solid var(--border); border-radius:var(--radius);
-      padding:16px; background:#fff; box-shadow:var(--shadow);
-    }
-    .soft{ background:var(--soft); }
-    .danger{ border-left:6px solid var(--danger); padding-left:12px; }
-    .kicker{ margin:0 0 6px; font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); font-weight:900; }
-    h2{ margin:6px 0 8px; font-size:20px; }
-    h3{ margin:12px 0 6px; font-size:16px; }
-    p{ margin:8px 0; }
-    ul{ margin:8px 0 0 18px; }
-    .mini{ color:var(--muted); font-size:14px; }
-
-    .pills{ display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
-    .pill{
-      display:inline-flex; padding:9px 12px; border-radius:999px;
-      border:1px solid var(--border); background:#fff; text-decoration:none; font-weight:900; font-size:14px;
-    }
-
-    details{ border:1px solid var(--border); border-radius:14px; padding:12px 14px; background:#fff; margin-top:10px; }
-    summary{ cursor:pointer; font-weight:900; }
-
-    .free-callout{
-      border:1px dashed var(--border);
-      background:#fff; border-radius:14px;
-      padding:14px; margin-top:10px;
-    }
-    code{ background:#f1f1f1; padding:2px 6px; border-radius:8px; }
-  </style>
+  <meta name="description" content="All resources: uninsured care, mental health support, senior help, transportation guidance, medication cost help, and overdose prevention." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-<header>
-  <div class="wrap">
-    <nav>
-      <a href="index.html">Home</a>
-      <a class="primary" href="hub.html">All Resources</a>
-      <a href="help.html">Request Help</a>
-      <a href="clinics.html">Clinics</a>
-      <a href="nyccare.html">NYC Care</a>
-      <a href="narcan.html">Narcan</a>
-    </nav>
+<div class="topbar">
+  <div class="nav">
+    <div class="brand"><span class="dot"></span>WH Medical Advocacy</div>
+    <div class="navlinks">
+      <a class="pill" href="index.html">Home</a>
+      <a class="pill primary" href="hub.html">All Resources</a>
+      <a class="pill" href="help.html">Request Help</a>
+      <a class="pill" href="clinics.html">Clinics</a>
+      <a class="pill" href="nyccare.html">NYC Care</a>
+      <a class="pill" href="narcan.html">Narcan</a>
+    </div>
+  </div>
+</div>
 
-    <h1>All Resources (Start Here)</h1>
+<div class="container">
+  <div class="card glow" style="margin-top:18px;">
+    <p class="kicker">START HERE</p>
+    <div class="h2">All Resources (organized by what you need)</div>
     <p class="sub">
-      Pick what you need help with today. If you’re not sure, click <strong>Request Help</strong> and we’ll guide you step-by-step.
+      Choose a category below. If you’re not sure, use <strong>Request Help</strong> and a volunteer will guide you.
     </p>
-    <div class="badge">FREE VOLUNTEER HELP • NO FEES • NO INSURANCE SALES</div>
+    <div class="badge">✅ Free volunteer help • No fees • No insurance sales</div>
+
+    <div class="callouts">
+      <a class="cta primary" href="help.html">Request Free Help</a>
+      <a class="cta" href="#mental">Mental health</a>
+      <a class="cta" href="#care">Uninsured / care</a>
+      <a class="cta" href="#seniors">Seniors</a>
+      <a class="cta" href="#transport">Transportation</a>
+      <a class="cta" href="#meds">Medication costs</a>
+      <a class="cta" href="#substance">Narcan / overdose</a>
+    </div>
   </div>
-</header>
 
-<main>
-
-  <!-- Emergency / Crisis -->
-  <div class="grid cols-3">
-    <div class="card danger">
+  <div class="grid cols-3" style="margin-top:14px;">
+    <div class="card strip danger">
       <p class="kicker">Emergency</p>
-      <h2>Call 911</h2>
-      <p class="mini">Life-threatening symptoms, severe bleeding, trouble breathing, overdose, stroke symptoms, or immediate danger.</p>
+      <div class="h2">Call 911</div>
+      <p class="mini">Life-threatening symptoms, severe bleeding, trouble breathing, overdose, immediate danger.</p>
     </div>
-
-    <div class="card">
+    <div class="card strip warn">
       <p class="kicker">Mental health crisis</p>
-      <h2>Call or text 988</h2>
+      <div class="h2">Call/Text 988</div>
       <p class="mini">24/7 free crisis support by phone/text/chat.</p>
-      <div class="pills">
-        <a class="pill" href="https://988lifeline.org/" target="_blank" rel="noopener">988 Lifeline</a>
-      </div>
-      <p class="mini">If you are in immediate danger, call 911.</p>
     </div>
-
-    <div class="card soft">
-      <p class="kicker">NYC support (free)</p>
-      <h2>NYC Well / NYC 988</h2>
-      <p class="mini">Free, confidential mental health support + referrals in 200+ languages.</p>
-      <div class="pills">
-        <a class="pill" href="tel:+18886929355">Call 1-888-692-9355</a>
-        <a class="pill" href="sms:65173">Text WELL to 65173</a>
-        <a class="pill" href="https://nyc988.cityofnewyork.us/en/get-help-now/" target="_blank" rel="noopener">Chat / Info</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Core: what do you need today? -->
-  <div class="card" style="margin-top:14px;">
-    <p class="kicker">What do you need help with today?</p>
-    <h2>Choose a category</h2>
-    <div class="pills">
-      <a class="pill" href="#care">Medical care & insurance</a>
-      <a class="pill" href="#mental">Mental health</a>
-      <a class="pill" href="#seniors">Help for seniors</a>
-      <a class="pill" href="#transport">Transportation</a>
-      <a class="pill" href="#meds">Medication costs</a>
-      <a class="pill" href="#substance">Substance use & overdose</a>
-      <a class="pill" href="#help">Not sure / request help</a>
-    </div>
-    <div class="free-callout">
-      <strong>Our help is free.</strong> We can help you find the right place, call to schedule, and understand what steps to take next.
-      <span class="mini">Clinics/medications/transport programs may have their own costs depending on eligibility.</span>
+    <div class="card strip good">
+      <p class="kicker">NYC support</p>
+      <div class="h2">NYC Well</div>
+      <p class="mini">Call 1-888-692-9355 • Text WELL to 65173 • Chat on NYC 988 site.</p>
     </div>
   </div>
 
   <div class="grid cols-2" style="margin-top:14px;">
 
-    <!-- Medical care & insurance -->
-    <div class="card" id="care">
-      <p class="kicker">Medical care & insurance</p>
-      <h2>I need medical care / I don’t have insurance</h2>
-      <div class="pills">
-        <a class="pill" href="nyccare.html">NYC Care</a>
-        <a class="pill" href="clinics.html">Clinic Directory</a>
-        <a class="pill" href="help.html">Request Help</a>
-      </div>
-      <details>
-        <summary>What we can do (free)</summary>
-        <ul>
-          <li>Help you figure out where to go (clinic vs urgent vs ER)</li>
-          <li>Help you enroll in NYC Care / connect to a financial counselor</li>
-          <li>Help you call a clinic and book an appointment</li>
-          <li>Help you understand what documents to bring</li>
-        </ul>
-      </details>
-    </div>
-
-    <!-- Mental health -->
-    <div class="card soft" id="mental">
+    <div class="card" id="mental">
       <p class="kicker">Mental health</p>
-      <h2>I feel anxious, depressed, overwhelmed, or need counseling</h2>
-      <div class="pills">
-        <a class="pill" href="tel:988">Call/Text 988</a>
-        <a class="pill" href="tel:+18886929355">NYC Well: 1-888-692-9355</a>
-        <a class="pill" href="sms:65173">Text WELL to 65173</a>
+      <div class="h2">Anxiety, depression, therapy, crisis support</div>
+      <ul>
+        <li><strong>Immediate support:</strong> Call or text <strong>988</strong> (free, 24/7).</li>
+        <li><strong>NYC Well (free):</strong> 1-888-692-9355 • Text WELL to 65173 • Chat via NYC 988.</li>
+        <li><strong>Ongoing care:</strong> We can help you find therapy/psychiatry through community clinics or NYC Health + Hospitals.</li>
+      </ul>
+      <div class="callouts">
+        <a class="cta primary" href="help.html">Request help finding support</a>
+        <a class="cta" href="tel:988">Call/Text 988</a>
       </div>
-      <details open>
-        <summary>Fast options (free)</summary>
-        <ul>
-          <li><strong>988</strong>: crisis support 24/7 (call/text/chat)</li>
-          <li><strong>NYC Well / NYC 988</strong>: free counseling support + referrals; interpreters for 200+ languages</li>
-        </ul>
-      </details>
       <details>
-        <summary>Ongoing therapy / psychiatry</summary>
-        <ul>
-          <li>Community health centers often offer behavioral health (therapy/psychiatry) as part of primary care</li>
-          <li>NYC Health + Hospitals offers outpatient mental health services citywide</li>
-          <li>We can help you find a clinic and schedule</li>
-        </ul>
-      </details>
-      <div class="pills">
-        <a class="pill" href="help.html">Request Help Finding Care</a>
-      </div>
-    </div>
-
-    <!-- Seniors -->
-    <div class="card" id="seniors">
-      <p class="kicker">Help for seniors</p>
-      <h2>I need help for an older adult</h2>
-      <div class="pills">
-        <a class="pill" href="help.html">Request Help</a>
-        <a class="pill" href="clinics.html">Find a clinic</a>
-      </div>
-      <details open>
-        <summary>Common senior needs we help with (free)</summary>
-        <ul>
-          <li>Scheduling appointments and follow-ups</li>
-          <li>Patient portals (MyChart), forms, paperwork</li>
-          <li>Post-hospital follow-up steps</li>
-          <li>Medication organization plan (simple schedule)</li>
-          <li>Transportation options (see transportation section)</li>
-        </ul>
-      </details>
-      <p class="mini"><strong>Note:</strong> We don’t provide medical advice — we help with navigation and logistics.</p>
-    </div>
-
-    <!-- Transportation -->
-    <div class="card soft" id="transport">
-      <p class="kicker">Transportation</p>
-      <h2>I need help getting to appointments</h2>
-      <div class="pills">
-        <a class="pill" href="help.html">Request Help</a>
-      </div>
-      <details open>
         <summary>What we can do (free)</summary>
         <ul>
-          <li>Find subway/bus directions</li>
-          <li>Help with Access-A-Ride steps (paratransit)</li>
-          <li>If eligible, help you ask about Medicaid non-emergency medical transportation (NEMT)</li>
-          <li>Help you ask a clinic/hospital social worker about ride options</li>
+          <li>Help you pick the right next step (crisis vs urgent vs routine)</li>
+          <li>Help you call and schedule</li>
+          <li>Help you find low/no-cost options</li>
         </ul>
       </details>
-      <p class="mini">We do not personally transport patients.</p>
+      <p class="mini">If you are in immediate danger, call 911.</p>
     </div>
 
-    <!-- Medication costs -->
-    <div class="card" id="meds">
-      <p class="kicker">Medication costs</p>
-      <h2>My prescriptions are too expensive</h2>
-      <div class="pills">
-        <a class="pill" href="help.html">Request Help</a>
-      </div>
-      <details open>
-        <summary>How we help lower costs (free)</summary>
-        <ul>
-          <li>Compare pharmacy prices using discount tools (like GoodRx / SingleCare)</li>
-          <li>Ask prescriber/pharmacy about generics and cheaper alternatives</li>
-          <li>Look up manufacturer assistance programs when available</li>
-          <li>For seniors: help you explore Medicare Part D / “Extra Help” pathways</li>
-        </ul>
-      </details>
-      <p class="mini">We don’t sell insurance and we don’t take payments.</p>
-    </div>
-
-    <!-- Substance use / Narcan -->
-    <div class="card soft" id="substance">
-      <p class="kicker">Substance use & overdose</p>
-      <h2>Narcan, overdose prevention, and support</h2>
-      <div class="pills">
-        <a class="pill" href="narcan.html">Free Narcan</a>
-        <a class="pill" href="help.html">Request Help</a>
-      </div>
-      <details>
-        <summary>Overdose basics</summary>
-        <ul>
-          <li>Call <strong>911</strong></li>
-          <li>Give naloxone (Narcan) if available</li>
-          <li>Stay with the person until help arrives</li>
-        </ul>
-      </details>
-    </div>
-
-  </div>
-
-  <!-- Not sure -->
-  <div class="card" id="help" style="margin-top:14px;">
-    <p class="kicker">Not sure?</p>
-    <h2>Request help and we’ll guide you</h2>
-    <p>Tell us what’s going on and we’ll respond with next steps: where to go, what to ask, and how to schedule.</p>
-    <div class="pills">
-      <a class="pill" href="help.html">Request Help</a>
-      <a class="pill" href="index.html">Back to Home</a>
-    </div>
-  </div>
-
-</main>
-
-</body>
-</html>
+    <div class="card glow" id="care">
+      <p class="k
