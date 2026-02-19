@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Resource Directory • NYC Medical Advocates</title>
   <meta name="description" content="Trusted NYC and NY State healthcare resources: uninsured care, mental health, benefits, transportation, bills, and medication costs." />
-  <link <link rel="stylesheet" href="./styles.css?v=2">
+  <link rel="stylesheet" href="./styles.css?v=3" />
 </head>
 <body>
 
@@ -28,25 +28,108 @@
   <div class="card glow">
     <p class="kicker">TRUSTED LINKS</p>
     <div class="h2">Resource Directory (official + reputable)</div>
-    <p class="sub">If you’re unsure where to begin, use Request Help and we’ll guide you.</p>
+    <p class="sub">
+      These links are a starting point. If you’re unsure where to begin, request help and we’ll guide you.
+      We provide <strong>free navigation help</strong> (not medical advice, not emergency services).
+    </p>
+    <div class="badge">✅ Free • No fees • No insurance sales • Not emergency services</div>
     <div class="callouts">
       <a class="cta primary" href="help.html">Request Help</a>
       <a class="cta" href="hub.html">All Resources</a>
-      <a class="cta" href="bills.html">Bills Department</a>
+      <a class="cta" href="#bills">Bills resources</a>
+      <a class="cta" href="#care">Uninsured / care</a>
+      <a class="cta" href="#mental">Mental health</a>
     </div>
   </div>
 
   <div class="grid cols-2" style="margin-top:14px;">
 
     <div class="card" id="mental">
-      <p class="kicker">Mental Health</p>
+      <p class="kicker">Mental health</p>
       <div class="h2">Crisis + ongoing support</div>
       <ul>
         <li><a target="_blank" rel="noopener" href="https://988lifeline.org/">988 Suicide & Crisis Lifeline (official)</a></li>
         <li><a target="_blank" rel="noopener" href="https://nyc988.cityofnewyork.us/en/get-help-now/">NYC 988 / NYC Well (official)</a></li>
-        <li><a target="_blank" rel="noopener" href="https://mentalhealth.cityofnewyork.us/program/nyc-well">NYC Well program info</a></li>
+        <li><a target="_blank" rel="noopener" href="https://mentalhealth.cityofnewyork.us/program/nyc-well/">NYC Well program info</a></li>
       </ul>
-      <p class="mini">If immediate danger: call 911. For crisis support: 988.</p>
+      <p class="mini">Emergency: 911. Mental health crisis support: 988.</p>
     </div>
 
-    <div class="card"
+    <div class="card" id="care">
+      <p class="kicker">Uninsured / finding care</p>
+      <div class="h2">Care options in NYC</div>
+      <ul>
+        <li><a target="_blank" rel="noopener" href="https://www.nychealthandhospitals.org/nyccare/">NYC Care (NYC Health + Hospitals)</a></li>
+        <li><a target="_blank" rel="noopener" href="https://www.nychealthandhospitals.org/">NYC Health + Hospitals (public hospital system)</a></li>
+        <li><a target="_blank" rel="noopener" href="https://nystateofhealth.ny.gov/">NY State of Health (insurance marketplace)</a></li>
+      </ul>
+      <p class="mini">If you want help choosing where to start, use Request Help.</p>
+    </div>
+
+    <div class="card" id="transport">
+      <p class="kicker">Transportation</p>
+      <div class="h2">Getting to appointments</div>
+      <ul>
+        <li><a target="_blank" rel="noopener" href="https://new.mta.info/">MTA (subway/bus info)</a></li>
+        <li><a target="_blank" rel="noopener" href="https://new.mta.info/accessibility/access-a-ride">Access-A-Ride (paratransit)</a></li>
+        <li><a target="_blank" rel="noopener" href="https://www.nyc.gov/site/fairfares/index.page">Fair Fares NYC (reduced fare MetroCards)</a></li>
+      </ul>
+      <p class="mini">We do not transport patients — we help you find options and plan steps.</p>
+    </div>
+
+    <div class="card" id="meds">
+      <p class="kicker">Medication costs</p>
+      <div class="h2">Lower prescription costs</div>
+      <ul>
+        <li><a target="_blank" rel="noopener" href="https://www.medicare.gov/basics/costs/help/drug-costs">Medicare help with drug costs (official)</a></li>
+        <li><a target="_blank" rel="noopener" href="https://www.ssa.gov/medicare/part-d-extra-help">Extra Help (Medicare Part D) – Social Security</a></li>
+      </ul>
+      <p class="mini">We can also help you prepare questions to ask your pharmacy/clinic (generic options, assistance programs).</p>
+    </div>
+
+    <div class="card" id="bills">
+      <p class="kicker">Bills & paperwork</p>
+      <div class="h2">Disputes, assistance, denials</div>
+      <ul>
+        <li><a target="_blank" rel="noopener" href="https://www.nychealthandhospitals.org/financial-assistance/">NYC H+H Financial Assistance</a></li>
+        <li><a target="_blank" rel="noopener" href="https://www.dfs.ny.gov/IDR">NY DFS: Independent Dispute Resolution (surprise bills)</a></li>
+        <li><a target="_blank" rel="noopener" href="https://communityhealthadvocates.org/">Community Health Advocates (free help with denials/bills)</a></li>
+      </ul>
+      <div class="callouts">
+        <a class="cta primary" href="bills.html">Bills Department Page</a>
+        <a class="cta" href="help.html">Request Help</a>
+      </div>
+      <p class="mini">We provide navigation, not legal advice.</p>
+    </div>
+
+    <div class="card" id="language">
+      <p class="kicker">Language access</p>
+      <div class="h2">Help in any language</div>
+      <ul>
+        <li><strong>Spanish page:</strong> <a href="es.html">Español</a></li>
+        <li><strong>NYC services:</strong> Many NYC services provide interpretation. If you need help finding the right number/path, request help.</li>
+      </ul>
+      <p class="mini">If you are in danger: 911. For mental health crisis support: 988.</p>
+    </div>
+
+  </div>
+
+  <div class="card" style="margin-top:14px;">
+    <p class="kicker">NOT SURE WHERE TO START?</p>
+    <div class="h2">We’ll guide you (free)</div>
+    <p class="sub">Tell us what’s going on, and we’ll suggest the best next steps and who to contact.</p>
+    <div class="callouts">
+      <a class="cta primary" href="help.html">Request Help</a>
+      <a class="cta" href="tel:+12018225428">📞 Call/Text 201-822-5428</a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="smallcaps">Important</div>
+    This website provides general information and free navigation help. It is not medical advice and not emergency services.
+    For emergencies call <strong>911</strong>. For mental health crisis support, call/text <strong>988</strong>.
+  </div>
+</div>
+
+</body>
+</html>
