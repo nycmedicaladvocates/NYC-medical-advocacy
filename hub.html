@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>All Resources | NYC Medical Advocates</title>
-  <meta name="description" content="Fast paths to care, bills, mental health, transportation, and medication help in New York City." />
-  <link rel="stylesheet" href="./styles.css?v=8" />
+  <title>Start Here | NYC Medical Advocates</title>
+  <meta name="description" content="Start here for free medical advocacy and navigation in New York City. Find care, handle bills, medication costs, mental health support, and transportation." />
+  <link rel="stylesheet" href="./styles.css?v=9" />
   <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
 </head>
 <body>
@@ -19,14 +19,13 @@
         <span class="brandtag">Free medical advocacy and navigation</span>
       </span>
     </a>
-
     <div class="navlinks">
       <a class="pill" href="index.html">Home</a>
       <a class="pill primary" href="help.html">Request Help</a>
-      <a class="pill" href="tel:+12018225428">Call/Text</a>
-      <a class="pill" href="hub.html">All Resources</a>
+      <a class="pill" href="hub.html">Start Here</a>
       <a class="pill" href="resources.html">Directory</a>
       <a class="pill" href="about.html">About</a>
+      <a class="pill" href="volunteer.html">Volunteer</a>
       <a class="pill ghost" href="recursos.html">Español</a>
     </div>
   </div>
@@ -36,9 +35,9 @@
 
   <div class="card glow">
     <p class="kicker">START HERE</p>
-    <div class="h2">Choose a category</div>
-    <p class="sub">If you want a volunteer to guide you, request help.</p>
-    <div class="badge">Free medical advocacy and navigation. No fees.</div>
+    <div class="h2">Choose a path</div>
+    <p class="sub">Pick the category that matches your situation. Each section includes quick steps and what to prepare.</p>
+    <div class="badge">Free medical advocacy and navigation. No cost.</div>
 
     <div class="callouts">
       <a class="cta primary" href="help.html">Request Help</a>
@@ -53,13 +52,26 @@
   <div class="grid cols-2" style="margin-top:14px;">
 
     <div class="card strip" id="care">
-      <p class="kicker">Find care</p>
-      <div class="h2">Uninsured options and clinic entry points</div>
+      <p class="kicker">Care</p>
+      <div class="h2">Find the right place to start</div>
+      <ol>
+        <li>Identify your borough and preferred clinic location.</li>
+        <li>Choose a care entry point and confirm how to schedule.</li>
+        <li>Prepare a short summary and your availability.</li>
+      </ol>
       <div class="callouts">
-        <a class="cta primary" href="nyccare.html">NYC Care</a>
-        <a class="cta" href="clinics.html">Clinics</a>
+        <a class="cta primary" href="clinics.html">Find Clinics</a>
+        <a class="cta" href="nyccare.html">NYC Care</a>
         <a class="cta" href="help.html">Request Help</a>
       </div>
+      <details>
+        <summary>What to prepare</summary>
+        <ul>
+          <li>Preferred days and times</li>
+          <li>Primary concern in one or two sentences</li>
+          <li>Any insurance information you have</li>
+        </ul>
+      </details>
     </div>
 
     <div class="card strip warn" id="mental">
@@ -70,25 +82,49 @@
         <a class="cta" href="https://nyc988.cityofnewyork.us/en/get-help-now/" target="_blank" rel="noopener">NYC 988</a>
         <a class="cta" href="help.html">Request Help</a>
       </div>
+      <details>
+        <summary>What to prepare</summary>
+        <ul>
+          <li>Your location and whether you want phone or in person support</li>
+          <li>Preferred language</li>
+          <li>If you feel unsafe, call 911</li>
+        </ul>
+      </details>
     </div>
 
     <div class="card strip" id="bills">
       <p class="kicker">Bills and paperwork</p>
-      <div class="h2">Understand bills and next steps</div>
+      <div class="h2">Clarify the bill and next steps</div>
       <div class="callouts">
-        <a class="cta primary" href="bills.html">Bills resource</a>
-        <a class="cta" href="resources.html#bills">Bills links</a>
+        <a class="cta primary" href="bills.html">Bills Page</a>
+        <a class="cta" href="resources.html#bills">Bills Links</a>
         <a class="cta" href="help.html">Request Help</a>
       </div>
+      <details>
+        <summary>What to prepare</summary>
+        <ul>
+          <li>Photos of the full document (all pages), if you are comfortable</li>
+          <li>Date of service and account number</li>
+          <li>Whether you received an EOB from insurance</li>
+        </ul>
+      </details>
     </div>
 
     <div class="card strip" id="meds">
       <p class="kicker">Medication costs</p>
-      <div class="h2">Lower cost options and programs</div>
+      <div class="h2">Lower cost options and official programs</div>
       <div class="callouts">
-        <a class="cta primary" href="resources.html#meds">Medication links</a>
+        <a class="cta primary" href="resources.html#meds">Medication Links</a>
         <a class="cta" href="help.html">Request Help</a>
       </div>
+      <details>
+        <summary>What to prepare</summary>
+        <ul>
+          <li>Medication names</li>
+          <li>Your pharmacy name and location</li>
+          <li>Insurance status and any denial information</li>
+        </ul>
+      </details>
     </div>
 
     <div class="card strip" id="transport">
@@ -99,21 +135,40 @@
         <a class="cta" href="https://new.mta.info/accessibility/access-a-ride" target="_blank" rel="noopener">Access A Ride</a>
         <a class="cta" href="https://www.nyc.gov/site/fairfares/index.page" target="_blank" rel="noopener">Fair Fares NYC</a>
       </div>
+      <details>
+        <summary>What to prepare</summary>
+        <ul>
+          <li>Clinic address and appointment time</li>
+          <li>Mobility needs</li>
+          <li>Whether you qualify for reduced fare programs</li>
+        </ul>
+      </details>
     </div>
 
     <div class="card strip" id="forms">
-      <p class="kicker">Forms and follow up</p>
-      <div class="h2">Help preparing paperwork</div>
+      <p class="kicker">Forms</p>
+      <div class="h2">Organize paperwork and follow up</div>
+      <p class="mini">If paperwork is confusing, we can help outline what to submit and where.</p>
       <div class="callouts">
         <a class="cta primary" href="help.html">Request Help</a>
         <a class="cta" href="privacy.html">Privacy</a>
       </div>
+      <details>
+        <summary>What to prepare</summary>
+        <ul>
+          <li>The form name and deadline</li>
+          <li>Any letters you received</li>
+          <li>Your preferred contact method</li>
+        </ul>
+      </details>
     </div>
 
   </div>
 
   <div class="footer">
-    <div class="smallcaps">Safety and disclaimer</div>
+    <div class="smallcaps">Contact</div>
+    Call or text <strong>201-822-5428</strong>. You can also use the <a href="help.html"><strong>Request Help form</strong></a>.
+    <div style="margin-top:10px;" class="smallcaps">Safety and disclaimer</div>
     In an emergency, call <strong>911</strong>. For mental health crisis support, call or text <strong>988</strong>.
     This site provides general information and free navigation support. It is not medical advice, diagnosis, or treatment.
   </div>
