@@ -1,17 +1,63 @@
-# Washington Heights Medical Advocacy
+# NYC Medical Advocates
 
-A free community health navigation project for Washington Heights residents.
+NYC Medical Advocates is a free volunteer health navigation project for New Yorkers.
 
-## What this site does
-- Helps residents find clinics and uninsured care pathways (NYC Care)
-- Provides mental health quick-access resources (988, NYC Well)
-- Supports seniors with navigation (appointments, forms, portals)
-- Provides guidance on transportation options and medication cost reduction
-- Offers a free help request form
+## Public site goals
+
+- Help people figure out where to start
+- Share trusted public and nonprofit resources
+- Support navigation for care, bills, paperwork, transportation, medication cost questions, and language access
+- Keep strong safety boundaries:
+  - emergency: call 911
+  - mental health crisis: call or text 988
+  - not medical advice
+  - not diagnosis or treatment
+
+## Main public pages
+
+- `index.html` — homepage
+- `help.html` — Start Here / QR landing page
+- `resources.html` — English directory
+- `about.html` — about the program
+- `impact.html` — program impact
+- `volunteer.html` — volunteer information
+- `privacy.html` — privacy and scope
+- `nyccare.html` — NYC Care page
+- `narcan.html` — naloxone / Narcan resources
+- `clinics.html` — finding care page
+- `bills.html` — bills and insurance page
+- `faq.html` — frequently asked questions
+- `es.html` — Spanish landing page
+- `recursos.html` — Spanish directory
+- `facturas.html` — Spanish bills page
+
+## Redirect / compatibility pages
+
+These exist so old links still work:
+
+- `hub.html` → redirects to `help.html`
+- `en.html` → redirects to `index.html`
+- `ayuda.html` → redirects to `es.html#formulario`
+- `directorio.html` → redirects to `recursos.html`
+- `about-es.html` → redirects to `es.html`
+
+## Branding
+
+- Use `logo.svg` for the site logo
+- Use `favicon.svg` for the browser tab icon
+
+## Design notes
+
+- Light, clean, nonprofit / public-health style
+- Mobile-friendly
+- Bilingual
+- Plain language
+- Consistent footer and safety language
+
+## Deployment
+
+This site is designed for GitHub Pages.
 
 ## Important
-This site provides general information and navigation support. It is **not medical advice** and **not emergency services**.
-For emergencies, call **911**.
 
-## Live Site
-Enable GitHub Pages (Settings → Pages) and publish from `main` branch, root.
+Always verify changing program details, eligibility rules, and hours directly with official sources.
