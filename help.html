@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Get Help • NYC Medical Advocates</title>
   <meta name="description" content="Get free healthcare navigation help in New York City. Learn what services NYC Medical Advocates provides, browse the directory, and contact us by call, text, or online form." />
-  <link rel="stylesheet" href="./styles.css?v=10" />
+  <link rel="stylesheet" href="./styles.css?v=11" />
   <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
 </head>
-<body>
+<body class="help-page">
 
 <div class="topbar">
   <div class="nav">
@@ -30,54 +30,48 @@
   </div>
 </div>
 
-<div class="container" style="margin-top:18px;">
+<div class="container help-container">
 
-  <div class="card glow">
+  <div class="card glow help-hero">
     <p class="kicker">GET HELP</p>
-    <div class="h2">Free healthcare navigation help in New York City</div>
-    <p class="sub">
+    <div class="h2 help-title">Free healthcare navigation help in New York City</div>
+    <p class="sub help-sub">
       We help people figure out where to start, who to call, what to ask, and what documents to prepare.
       We can help with finding care, low-cost and uninsured options, appointments, bills, paperwork,
       insurance questions, medication cost concerns, transportation questions, and connections to trusted public resources.
     </p>
 
-    <div class="badge">100% free healthcare navigation support • Not medical advice • Not for emergencies</div>
+    <div class="badge help-badge">100% free healthcare navigation support • Not medical advice • Not for emergencies</div>
 
-    <div class="callouts" style="margin-top:14px;">
-      <a class="cta primary" href="tel:+12018225428">Call 201-822-5428</a>
-      <a class="cta" href="sms:+12018225428">Text 201-822-5428</a>
-      <a class="cta" href="#form">Online form</a>
-      <a class="cta" href="resources.html">Browse directory</a>
-    </div>
-
-    <p class="mini" style="margin-top:12px;">
-      This page is designed as the main entry point for people who scan our flyer QR code.
-    </p>
-
-    <hr class="sep" />
-
-    <div class="grid cols-3">
-      <div class="card strip danger">
-        <p class="kicker">Emergency</p>
-        <div class="h2">Call 911</div>
-        <p class="mini">Immediate danger, severe symptoms, or urgent medical emergencies.</p>
-      </div>
-
-      <div class="card strip warn">
-        <p class="kicker">Mental health crisis</p>
-        <div class="h2">Call or text 988</div>
-        <p class="mini">24/7 crisis support by call, text, or chat.</p>
-      </div>
-
-      <div class="card strip good">
-        <p class="kicker">NYC support</p>
-        <div class="h2">NYC Well</div>
-        <p class="mini">Call 1-888-692-9355 • Text WELL to 65173</p>
-      </div>
+    <div class="callouts help-main-actions">
+      <a class="cta primary help-action" href="tel:+12018225428">Call 201-822-5428</a>
+      <a class="cta help-action" href="sms:+12018225428">Text 201-822-5428</a>
+      <a class="cta help-action" href="#form">Online form</a>
+      <a class="cta help-action" href="resources.html">Browse directory</a>
     </div>
   </div>
 
-  <div class="grid cols-2" style="margin-top:14px;">
+  <div class="grid cols-3 help-alert-grid">
+    <div class="card strip danger">
+      <p class="kicker">Emergency</p>
+      <div class="h2">Call 911</div>
+      <p class="mini">Immediate danger, severe symptoms, or urgent medical emergencies.</p>
+    </div>
+
+    <div class="card strip warn">
+      <p class="kicker">Mental health crisis</p>
+      <div class="h2">Call or text 988</div>
+      <p class="mini">24/7 crisis support by call, text, or chat.</p>
+    </div>
+
+    <div class="card strip good">
+      <p class="kicker">NYC support</p>
+      <div class="h2">NYC Well</div>
+      <p class="mini">Call 1-888-692-9355 • Text WELL to 65173</p>
+    </div>
+  </div>
+
+  <div class="grid cols-2 help-section-grid">
     <div class="card strip">
       <p class="kicker">WHAT WE HELP WITH</p>
       <div class="h2">Services we provide</div>
@@ -102,13 +96,11 @@
         <li>We do not replace doctors, nurses, or emergency services</li>
         <li>We do not guarantee eligibility, appointments, coverage, or outcomes</li>
       </ul>
-      <p class="mini">
-        Our role is to help you understand your options and identify the next practical step.
-      </p>
+      <p class="mini">Our role is to help you understand options and identify the next practical step.</p>
     </div>
   </div>
 
-  <div class="grid cols-2" style="margin-top:14px;">
+  <div class="grid cols-2 help-section-grid">
     <div class="card strip">
       <p class="kicker">HOW IT WORKS</p>
       <div class="h2">Simple support, one step at a time</div>
@@ -133,26 +125,24 @@
     </div>
   </div>
 
-  <div class="card strip" style="margin-top:14px;">
+  <div class="card strip help-directory-card">
     <p class="kicker">NEED A RESOURCE NOW?</p>
     <div class="h2">Browse the directory by topic</div>
-    <p class="mini">
-      You can explore trusted starting points right away, even if you are not ready to contact us yet.
-    </p>
+    <p class="mini">You can explore trusted starting points right away, even if you are not ready to contact us yet.</p>
 
-    <div class="callouts" style="margin-top:12px;">
-      <a class="cta" href="clinics.html">Clinics</a>
-      <a class="cta" href="resources.html">Full directory</a>
-      <a class="cta" href="nyccare.html">NYC Care</a>
-      <a class="cta" href="narcan.html">Narcan</a>
-      <a class="cta" href="resources.html#bills">Bills & insurance</a>
-      <a class="cta" href="resources.html#mental-health">Mental health</a>
-      <a class="cta" href="resources.html#transportation">Transportation</a>
-      <a class="cta" href="es.html">Español</a>
+    <div class="callouts help-topic-buttons">
+      <a class="cta help-topic" href="clinics.html">Clinics</a>
+      <a class="cta help-topic" href="resources.html">Full directory</a>
+      <a class="cta help-topic" href="nyccare.html">NYC Care</a>
+      <a class="cta help-topic" href="narcan.html">Narcan</a>
+      <a class="cta help-topic" href="resources.html#bills">Bills &amp; insurance</a>
+      <a class="cta help-topic" href="resources.html#mental-health">Mental health</a>
+      <a class="cta help-topic" href="resources.html#transportation">Transportation</a>
+      <a class="cta help-topic" href="es.html">Español</a>
     </div>
   </div>
 
-  <div class="grid cols-2" style="margin-top:14px;">
+  <div class="grid cols-2 help-section-grid">
     <div class="card strip good">
       <p class="kicker">WAYS TO REACH US</p>
       <div class="h2">Pick the easiest option</div>
@@ -161,9 +151,7 @@
         <li><strong>Text:</strong> <a href="sms:+12018225428">201-822-5428</a></li>
         <li><strong>Online request form:</strong> scroll down and submit</li>
       </ul>
-      <p class="mini">
-        Call or text is usually best if you want the fastest response.
-      </p>
+      <p class="mini">Call or text is usually best if you want the fastest response.</p>
     </div>
 
     <div class="card strip">
@@ -179,29 +167,27 @@
     </div>
   </div>
 
-  <div class="card strip" style="margin-top:14px;">
+  <div class="card strip help-form-card">
     <p class="kicker">ONLINE REQUEST FORM</p>
     <div class="h2" id="form">Submit a non-urgent request</div>
     <p class="sub">
       This form is <strong>not monitored in real time</strong>. If you are in immediate danger or have severe symptoms, call <strong>911</strong>.
       If you are experiencing a mental health crisis, call or text <strong>988</strong>.
     </p>
-    <p class="mini">
-      If the form does not load, call or text <strong>201-822-5428</strong>.
-    </p>
+    <p class="mini">If the form does not load, call or text <strong>201-822-5428</strong>.</p>
 
-    <div style="max-width:900px;margin:14px auto 0;">
+    <div class="help-form-wrap">
       <iframe
         title="NYC Medical Advocates request form"
         src="https://docs.google.com/forms/d/e/1FAIpQLSdHQc8pbAnbpcW2G4h_Y_mLpiQIesHF2MR1OfSxTlebqN-xYQ/viewform?embedded=true"
-        style="width:100%;height:1650px;border:0;border-radius:14px;background:rgba(255,255,255,.02);"
+        class="help-form-iframe"
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
       >Loading…</iframe>
     </div>
   </div>
 
-  <div class="card strip" style="margin-top:14px;">
+  <div class="card strip">
     <p class="kicker">LANGUAGE ACCESS</p>
     <div class="h2">Spanish and other languages</div>
     <p class="mini">
