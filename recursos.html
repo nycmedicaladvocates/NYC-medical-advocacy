@@ -1,42 +1,134 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Directorio</title>
-  <link rel="stylesheet" href="./styles.css?v=30" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Directorio de recursos • NYC Medical Advocates</title>
+  <meta name="description" content="Recursos confiables en español para salud mental, atención sin seguro, transporte, medicamentos, facturas y acceso de idioma en NYC." />
+  <link rel="stylesheet" href="./styles.css?v=31" />
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
 </head>
-
 <body>
 
 <div class="topbar">
   <div class="nav">
     <a class="brand" href="es.html">
-      <img class="logo" src="./logo.svg" />
+      <img class="logo" src="./logo.svg" alt="Logo de NYC Medical Advocates" />
+      <span class="brandtext">
+        <span class="brandtitle">NYC Medical Advocates</span>
+        <span class="brandtag">Apoyo gratis para navegar el sistema de salud</span>
+      </span>
     </a>
 
     <div class="navlinks">
-      <a class="pill" href="es.html">Inicio</a>
-      <a class="pill" href="recursos.html">Directorio</a>
+      <a class="pill" href="es.html">Empiece aquí</a>
+      <a class="pill primary" href="recursos.html">Directorio</a>
       <a class="pill" href="facturas.html">Facturas</a>
       <a class="pill ghost" href="index.html">English</a>
     </div>
   </div>
 </div>
 
-<div class="container">
-  <h1 class="h1">Directorio</h1>
+<div class="container hero">
+  <div class="card glow">
+    <p class="kicker">Directorio de recursos</p>
+    <div class="h2">Recursos confiables en un solo lugar</div>
+    <p class="sub">
+      Este directorio reúne enlaces oficiales y de alta reputación para ayudarle a encontrar atención, apoyo de salud mental, opciones sin seguro, transporte, ayuda con medicamentos, orientación sobre facturas y acceso de idioma en NYC.
+    </p>
+    <div class="badge">100% apoyo gratis para navegar el sistema de salud • No es consejo médico • No es para emergencias</div>
 
-  <h2>Salud mental</h2>
-  <ul>
-    <li><a href="https://988lifeline.org/" target="_blank">988</a></li>
-  </ul>
+    <div class="anchor-row" style="margin-top:16px;">
+      <a class="anchor-chip" href="#salud-mental">Salud mental</a>
+      <a class="anchor-chip" href="#sin-seguro">Sin seguro</a>
+      <a class="anchor-chip" href="#transporte">Transporte</a>
+      <a class="anchor-chip" href="#medicamentos">Medicamentos</a>
+      <a class="anchor-chip" href="#facturas">Facturas</a>
+      <a class="anchor-chip" href="#idioma">Idioma</a>
+    </div>
+  </div>
 
-  <h2>Sin seguro</h2>
-  <ul>
-    <li><a href="nyccare.html">NYC Care</a></li>
-  </ul>
+  <div class="section grid cols-2">
+    <div class="card resource-card" id="salud-mental">
+      <p class="kicker">Salud mental</p>
+      <div class="h2">Crisis y apoyo</div>
+      <p class="mini">Use estos enlaces primero para apoyo de crisis y ayuda emocional urgente.</p>
+      <div class="callouts">
+        <a class="cta primary" target="_blank" rel="noopener" href="https://988lifeline.org/">988 oficial</a>
+        <a class="cta" target="_blank" rel="noopener" href="https://nyc988.cityofnewyork.us/en/get-help-now/">NYC 988 / NYC Well</a>
+      </div>
+    </div>
 
+    <div class="card resource-card" id="sin-seguro">
+      <p class="kicker">Sin seguro / bajo costo</p>
+      <div class="h2">Puntos para empezar</div>
+      <p class="mini">Útil para personas sin seguro o que buscan atención de menor costo.</p>
+      <div class="callouts">
+        <a class="cta primary" target="_blank" rel="noopener" href="https://www.nychealthandhospitals.org/nyccare/">NYC Care</a>
+        <a class="cta" target="_blank" rel="noopener" href="https://nystateofhealth.ny.gov/">NY State of Health</a>
+      </div>
+    </div>
+
+    <div class="card resource-card" id="transporte">
+      <p class="kicker">Transporte</p>
+      <div class="h2">Cómo llegar a citas</div>
+      <p class="mini">Recursos útiles para visitas médicas y apoyo con transporte público.</p>
+      <div class="callouts">
+        <a class="cta primary" target="_blank" rel="noopener" href="https://new.mta.info/">MTA</a>
+        <a class="cta" target="_blank" rel="noopener" href="https://new.mta.info/accessibility/access-a-ride">Access-A-Ride</a>
+        <a class="cta" target="_blank" rel="noopener" href="https://www.nyc.gov/site/fairfares/index.page">Fair Fares NYC</a>
+      </div>
+    </div>
+
+    <div class="card resource-card" id="medicamentos">
+      <p class="kicker">Medicamentos</p>
+      <div class="h2">Ayuda oficial con costos</div>
+      <p class="mini">Buen lugar para empezar con apoyo oficial relacionado con costos de medicamentos.</p>
+      <div class="callouts">
+        <a class="cta primary" target="_blank" rel="noopener" href="https://www.medicare.gov/basics/costs/help/drug-costs">Ayuda con costos</a>
+        <a class="cta" target="_blank" rel="noopener" href="https://www.ssa.gov/medicare/part-d-extra-help">Extra Help</a>
+      </div>
+    </div>
+
+    <div class="card resource-card" id="facturas">
+      <p class="kicker">Facturas y disputas</p>
+      <div class="h2">Ayuda con facturas y próximos pasos</div>
+      <p class="mini">Lugares útiles para empezar con facturas confusas, asistencia financiera y disputas.</p>
+      <div class="callouts">
+        <a class="cta primary" target="_blank" rel="noopener" href="https://communityhealthadvocates.org/">Community Health Advocates</a>
+        <a class="cta" target="_blank" rel="noopener" href="https://www.nychealthandhospitals.org/financial-assistance/">Asistencia financiera NYC H+H</a>
+        <a class="cta" target="_blank" rel="noopener" href="https://www.dfs.ny.gov/IDR">Proceso de disputa NY DFS</a>
+      </div>
+    </div>
+
+    <div class="card resource-card" id="idioma">
+      <p class="kicker">Acceso de idioma</p>
+      <div class="h2">Ayuda en su idioma</div>
+      <p class="mini">Muchas agencias y hospitales pueden proporcionar intérpretes. Para muchos servicios de NYC, puede llamar al 311 y pedir su idioma.</p>
+      <div class="callouts">
+        <a class="cta primary" target="_blank" rel="noopener" href="https://portal.311.nyc.gov/">NYC 311</a>
+        <a class="cta secondary" href="es.html">Página principal en español</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section card">
+    <p class="kicker">¿Necesita ayuda para elegir?</p>
+    <div class="h2">Podemos ayudarle a identificar el mejor primer paso</div>
+    <p class="mini">Si no sabe qué recurso se ajusta mejor a su situación, empiece por la página principal o contáctenos por llamada, texto o formulario.</p>
+    <div class="callouts">
+      <a class="cta primary" href="es.html">Empiece aquí</a>
+      <a class="cta" href="es.html#contacto">Llamar o enviar texto</a>
+      <a class="cta" href="es.html#formulario">Formulario</a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="smallcaps">Última actualización</div>
+    Marzo 2026
+    <div style="margin-top:10px" class="smallcaps">Seguridad y aviso</div>
+    En una emergencia, llame al <strong>911</strong>. Para una crisis de salud mental, llame o envíe texto al <strong>988</strong>. Este sitio ofrece información general y apoyo gratis para navegar el sistema de salud. No es consejo médico, diagnóstico ni tratamiento.
+  </div>
 </div>
 
 </body>
