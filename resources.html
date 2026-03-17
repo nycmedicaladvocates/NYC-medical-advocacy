@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Directory • NYC Medical Advocates</title>
   <meta name="description" content="Trusted NYC and New York State healthcare navigation resources for mental health, uninsured care, transportation, medications, bills, and language access." />
-  <link rel="stylesheet" href="./styles.css?v=31" />
+  <link rel="stylesheet" href="./styles.css?v=33" />
   <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
 </head>
 <body>
@@ -21,26 +21,36 @@
     </a>
 
     <div class="navlinks">
+      <a class="pill" href="index.html">Home</a>
       <a class="pill" href="help.html">Start here</a>
       <a class="pill primary" href="resources.html">Directory</a>
       <a class="pill" href="about.html">About</a>
       <a class="pill" href="impact.html">Impact</a>
-      <a class="pill" href="volunteer.html">Volunteer</a>
       <a class="pill ghost" href="es.html">Español</a>
     </div>
   </div>
 </div>
 
 <div class="container hero">
+
   <div class="card glow">
     <p class="kicker">Directory</p>
     <div class="h2">Trusted starting points in one place</div>
     <p class="sub">
       Use these official and reputable resources to get started. If you are not sure where to begin, use the Start Here page or contact us for non-urgent navigation help.
     </p>
+
     <div class="badge">100% free healthcare navigation support • Not medical advice • Not for emergencies</div>
 
-    <div class="anchor-row" style="margin-top:16px;">
+    <div class="callouts">
+      <a class="cta primary" href="help.html">Start here</a>
+      <a class="cta" href="help.html#contact">Call or text</a>
+      <a class="cta secondary" href="es.html">Ver en español</a>
+    </div>
+
+    <hr class="sep" />
+
+    <div class="anchor-row">
       <a class="anchor-chip" href="#mental-health">Mental health</a>
       <a class="anchor-chip" href="#no-insurance">No insurance</a>
       <a class="anchor-chip" href="#transportation">Transportation</a>
@@ -50,78 +60,125 @@
     </div>
   </div>
 
-  <div class="section grid cols-2">
-    <div class="card resource-card" id="mental-health">
-      <p class="kicker">Mental health</p>
-      <div class="h2">Crisis and support resources</div>
-      <p class="mini">Use these first for mental health crisis support and urgent emotional help.</p>
-      <div class="callouts">
-        <a class="cta primary" target="_blank" rel="noopener" href="https://988lifeline.org/">988 Lifeline</a>
-        <a class="cta" target="_blank" rel="noopener" href="https://nyc988.cityofnewyork.us/en/get-help-now/">NYC 988 / NYC Well</a>
+  <div class="section">
+    <div class="section-head">
+      <div>
+        <p class="kicker">Browse by topic</p>
+        <div class="h2">Common resource categories</div>
       </div>
     </div>
 
-    <div class="card resource-card" id="no-insurance">
-      <p class="kicker">No insurance / low-cost care</p>
-      <div class="h2">Coverage and care starting points</div>
-      <p class="mini">Helpful first stops for people without insurance or looking for lower-cost care options.</p>
-      <div class="callouts">
-        <a class="cta primary" target="_blank" rel="noopener" href="https://www.nychealthandhospitals.org/nyccare/">NYC Care</a>
-        <a class="cta" target="_blank" rel="noopener" href="https://nystateofhealth.ny.gov/">NY State of Health</a>
-      </div>
-    </div>
+    <div class="grid cols-3">
 
-    <div class="card resource-card" id="transportation">
-      <p class="kicker">Transportation</p>
-      <div class="h2">Getting to appointments</div>
-      <p class="mini">Useful transportation resources for medical visits and lower-cost transit support.</p>
-      <div class="callouts">
-        <a class="cta primary" target="_blank" rel="noopener" href="https://new.mta.info/">MTA</a>
-        <a class="cta" target="_blank" rel="noopener" href="https://new.mta.info/accessibility/access-a-ride">Access-A-Ride</a>
-        <a class="cta" target="_blank" rel="noopener" href="https://www.nyc.gov/site/fairfares/index.page">Fair Fares NYC</a>
+      <div class="card resource-card" id="mental-health">
+        <p class="kicker">Mental health</p>
+        <div class="h3">Crisis and support resources</div>
+        <p class="mini">
+          Use these first for mental health crisis support and urgent emotional help.
+        </p>
+        <div class="callouts">
+          <a class="cta primary" target="_blank" rel="noopener" href="https://988lifeline.org/">988 Lifeline</a>
+          <a class="cta" target="_blank" rel="noopener" href="https://nyc988.cityofnewyork.us/en/get-help-now/">NYC 988 / NYC Well</a>
+        </div>
+        <div class="resource-meta">Official / public resource</div>
       </div>
-    </div>
 
-    <div class="card resource-card" id="medications">
-      <p class="kicker">Medications</p>
-      <div class="h2">Cost support and official help</div>
-      <p class="mini">Start here for Medicare-related drug cost help and official savings support.</p>
-      <div class="callouts">
-        <a class="cta primary" target="_blank" rel="noopener" href="https://www.medicare.gov/basics/costs/help/drug-costs">Medicare drug cost help</a>
-        <a class="cta" target="_blank" rel="noopener" href="https://www.ssa.gov/medicare/part-d-extra-help">Extra Help (Part D)</a>
+      <div class="card resource-card" id="no-insurance">
+        <p class="kicker">No insurance / low-cost care</p>
+        <div class="h3">Coverage and care starting points</div>
+        <p class="mini">
+          Helpful first stops for people without insurance or looking for lower-cost care options.
+        </p>
+        <div class="callouts">
+          <a class="cta primary" href="nyccare.html">NYC Care</a>
+          <a class="cta" target="_blank" rel="noopener" href="https://nystateofhealth.ny.gov/">NY State of Health</a>
+        </div>
+        <div class="resource-meta">Official / public resource</div>
       </div>
-    </div>
 
-    <div class="card resource-card" id="bills">
-      <p class="kicker">Bills and disputes</p>
-      <div class="h2">Billing help and next steps</div>
-      <p class="mini">Useful places to start for confusing bills, financial assistance, and dispute help.</p>
-      <div class="callouts">
-        <a class="cta primary" target="_blank" rel="noopener" href="https://communityhealthadvocates.org/">Community Health Advocates</a>
-        <a class="cta" target="_blank" rel="noopener" href="https://www.nychealthandhospitals.org/financial-assistance/">NYC H+H financial assistance</a>
-        <a class="cta" target="_blank" rel="noopener" href="https://www.dfs.ny.gov/IDR">NY DFS dispute process</a>
+      <div class="card resource-card" id="transportation">
+        <p class="kicker">Transportation</p>
+        <div class="h3">Getting to appointments</div>
+        <p class="mini">
+          Useful transportation resources for medical visits and lower-cost transit support.
+        </p>
+        <div class="callouts">
+          <a class="cta primary" target="_blank" rel="noopener" href="https://new.mta.info/">MTA</a>
+          <a class="cta" target="_blank" rel="noopener" href="https://new.mta.info/accessibility/access-a-ride">Access-A-Ride</a>
+          <a class="cta" target="_blank" rel="noopener" href="https://www.nyc.gov/site/fairfares/index.page">Fair Fares NYC</a>
+        </div>
+        <div class="resource-meta">Official / public resource</div>
       </div>
-    </div>
 
-    <div class="card resource-card" id="language">
-      <p class="kicker">Language access</p>
-      <div class="h2">Help in your language</div>
-      <p class="mini">Many agencies and hospitals can provide interpreters. For many NYC services, you can call 311 and request your language.</p>
-      <div class="callouts">
-        <a class="cta primary" target="_blank" rel="noopener" href="https://portal.311.nyc.gov/">NYC 311</a>
-        <a class="cta secondary" href="es.html">Spanish landing page</a>
+      <div class="card resource-card" id="medications">
+        <p class="kicker">Medications</p>
+        <div class="h3">Cost support and official help</div>
+        <p class="mini">
+          Start here for Medicare-related drug cost help and official savings support.
+        </p>
+        <div class="callouts">
+          <a class="cta primary" target="_blank" rel="noopener" href="https://www.medicare.gov/basics/costs/help/drug-costs">Medicare drug cost help</a>
+          <a class="cta" target="_blank" rel="noopener" href="https://www.ssa.gov/medicare/part-d-extra-help">Extra Help</a>
+        </div>
+        <div class="resource-meta">Official / public resource</div>
       </div>
+
+      <div class="card resource-card" id="bills">
+        <p class="kicker">Bills and disputes</p>
+        <div class="h3">Billing help and next steps</div>
+        <p class="mini">
+          Useful places to start for confusing bills, financial assistance, and dispute help.
+        </p>
+        <div class="callouts">
+          <a class="cta primary" href="bills.html">Bills guide</a>
+          <a class="cta" target="_blank" rel="noopener" href="https://communityhealthadvocates.org/">Community Health Advocates</a>
+          <a class="cta" target="_blank" rel="noopener" href="https://www.nychealthandhospitals.org/financial-assistance/">NYC H+H financial assistance</a>
+          <a class="cta" target="_blank" rel="noopener" href="https://www.dfs.ny.gov/IDR">NY DFS dispute process</a>
+        </div>
+        <div class="resource-meta">Official / reputable public-interest resource</div>
+      </div>
+
+      <div class="card resource-card" id="language">
+        <p class="kicker">Language access</p>
+        <div class="h3">Help in your language</div>
+        <p class="mini">
+          Many agencies and hospitals can provide interpreters. For many NYC services, you can call 311 and request help in your language.
+        </p>
+        <div class="callouts">
+          <a class="cta primary" target="_blank" rel="noopener" href="https://portal.311.nyc.gov/">NYC 311</a>
+          <a class="cta secondary" href="es.html">Spanish landing page</a>
+        </div>
+        <div class="resource-meta">Official / public resource</div>
+      </div>
+
     </div>
   </div>
 
-  <div class="section card">
-    <p class="kicker">Need help choosing?</p>
-    <div class="h2">We can help you identify the best first step</div>
-    <p class="mini">If you are not sure which resource fits your situation, start with the landing page or contact us by phone, text, or form.</p>
-    <div class="callouts">
-      <a class="cta primary" href="help.html">Start here</a>
-      <a class="cta" href="help.html#contact">Call or text</a>
-      <a class="cta" href="help.html#form">Online form</a>
+  <div class="section grid cols-2">
+    <div class="card soft">
+      <p class="kicker">Need help choosing?</p>
+      <div class="h2">We can help you identify the best first step</div>
+      <p class="mini">
+        If you are not sure which resource fits your situation, start with the landing page or contact us by phone, text, or form.
+      </p>
+      <div class="callouts">
+        <a class="cta primary" href="help.html">Start here</a>
+        <a class="cta" href="help.html#contact">Call or text</a>
+        <a class="cta" href="help.html#form">Online form</a>
+      </div>
+    </div>
+
+    <div class="card soft">
+      <p class="kicker">Important note</p>
+      <div class="h2">Always verify changing details</div>
+      <p class="mini">
+        Program details, eligibility rules, hours, and service locations can change. Use official pages whenever possible to confirm the latest information.
+      </p>
+      <div class="callouts">
+        <a class="cta" href="clinics.html">Finding care</a>
+        <a class="cta" href="nyccare.html">NYC Care</a>
+        <a class="cta" href="faq.html">FAQ</a>
+      </div>
     </div>
   </div>
 
@@ -131,6 +188,7 @@
     <div style="margin-top:10px" class="smallcaps">Safety notice</div>
     Emergency: call <strong>911</strong>. Mental health crisis: call or text <strong>988</strong>. This site provides general information and free healthcare navigation support only. It is not medical advice, diagnosis, or treatment.
   </div>
+
 </div>
 
 </body>
