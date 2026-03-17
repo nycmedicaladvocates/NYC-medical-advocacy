@@ -1,118 +1,107 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Directory • NYC Medical Advocates</title>
-  <meta name="description" content="Trusted NYC and NY State healthcare navigation resources for mental health, uninsured care, transportation, medications, bills, and language access." />
-  <link rel="stylesheet" href="./styles.css?v=30" />
-  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Volunteer | NYC Medical Advocates</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <div class="topbar">
-    <div class="nav">
-      <a class="brand" href="index.html">
-        <img class="logo" src="./logo.svg" alt="NYC Medical Advocates logo" />
-        <span class="brandtext">
-          <span class="brandtitle">NYC Medical Advocates</span>
-          <span class="brandtag">Free healthcare navigation help in NYC</span>
-        </span>
-      </a>
-      <div class="navlinks">
-        <a class="pill" href="help.html">Start here</a>
-        <a class="pill primary" href="resources.html">Directory</a>
-        <a class="pill" href="bills.html">Bills</a>
-        <a class="pill" href="clinics.html">Clinics</a>
-        <a class="pill ghost" href="recursos.html">Español</a>
-      </div>
+
+<!-- NAVBAR -->
+<div class="topbar">
+  <div class="nav">
+    <a class="brand" href="index.html">
+      <img class="logo" src="./logo.svg" alt="NYC Medical Advocates logo" />
+      <span class="brandtext">
+        <span class="brandtitle">NYC Medical Advocates</span>
+        <span class="brandtag">Free healthcare navigation help in NYC</span>
+      </span>
+    </a>
+
+    <div class="navlinks">
+      <a class="pill" href="help.html">Start here</a>
+      <a class="pill" href="resources.html">Directory</a>
+      <a class="pill" href="about.html">About</a>
+      <a class="pill" href="impact.html">Impact</a>
+      <a class="pill ghost" href="es.html">Español</a>
     </div>
   </div>
+</div>
 
-  <div class="container hero">
-    <div class="card glow">
-      <p class="kicker">Directory</p>
-      <h1 class="h2">Trusted starting points in one place</h1>
-      <p class="sub">
-        Use these official and reputable resources to get started. If you are not sure where to begin,
-        use the Start Here page or contact us for non-urgent navigation help.
-      </p>
-      <div class="badge">100% free healthcare navigation support • Not medical advice • Not for emergencies</div>
+<!-- HERO -->
+<section class="hero">
+  <h1>Volunteer with NYC Medical Advocates</h1>
+  <p>
+    Help people in NYC navigate healthcare for free. No prior experience required — just compassion and reliability.
+  </p>
+</section>
 
-      <div class="anchor-row" style="margin-top:16px;">
-        <a class="anchor-chip" href="#mental-health">Mental health</a>
-        <a class="anchor-chip" href="#no-insurance">No insurance</a>
-        <a class="anchor-chip" href="#transportation">Transportation</a>
-        <a class="anchor-chip" href="#medications">Medications</a>
-        <a class="anchor-chip" href="#bills">Bills</a>
-        <a class="anchor-chip" href="#language">Language access</a>
-      </div>
-    </div>
+<!-- MAIN CONTENT -->
+<section class="section">
 
-    <div class="section grid cols-2">
-      <div class="card resource-card" id="mental-health">
-        <p class="kicker">Mental health</p>
-        <h2 class="h2">Crisis and support resources</h2>
-        <div class="callouts">
-          <a class="cta primary" target="_blank" rel="noopener" href="https://988lifeline.org/">988 Lifeline</a>
-          <a class="cta" target="_blank" rel="noopener" href="https://nyc988.cityofnewyork.us/en/get-help-now/">NYC 988 / NYC Well</a>
-        </div>
-      </div>
+  <h2>What You'll Do</h2>
+  <ul>
+    <li>Help patients find clinics, insurance, and services</li>
+    <li>Guide people through NYC Care and public health programs</li>
+    <li>Assist with appointment scheduling and follow-up</li>
+    <li>Provide clear, simple explanations of healthcare options</li>
+  </ul>
 
-      <div class="card resource-card" id="no-insurance">
-        <p class="kicker">No insurance / low-cost care</p>
-        <h2 class="h2">Coverage and care starting points</h2>
-        <div class="callouts">
-          <a class="cta primary" target="_blank" rel="noopener" href="https://www.nychealthandhospitals.org/nyccare/">NYC Care</a>
-          <a class="cta" target="_blank" rel="noopener" href="https://nystateofhealth.ny.gov/">NY State of Health</a>
-        </div>
-      </div>
+  <h2>Who We're Looking For</h2>
+  <ul>
+    <li>Students interested in medicine, public health, or service</li>
+    <li>Strong communication skills</li>
+    <li>Reliable and responsive</li>
+    <li>Spanish speakers are highly encouraged</li>
+  </ul>
 
-      <div class="card resource-card" id="transportation">
-        <p class="kicker">Transportation</p>
-        <h2 class="h2">Getting to appointments</h2>
-        <div class="callouts">
-          <a class="cta primary" target="_blank" rel="noopener" href="https://new.mta.info/">MTA</a>
-          <a class="cta" target="_blank" rel="noopener" href="https://new.mta.info/accessibility/access-a-ride">Access-A-Ride</a>
-          <a class="cta" target="_blank" rel="noopener" href="https://www.nyc.gov/site/fairfares/index.page">Fair Fares NYC</a>
-        </div>
-      </div>
+  <h2>Time Commitment</h2>
+  <p>
+    Flexible. Most volunteers contribute a few hours per week depending on availability.
+  </p>
 
-      <div class="card resource-card" id="medications">
-        <p class="kicker">Medications</p>
-        <h2 class="h2">Cost support and official help</h2>
-        <div class="callouts">
-          <a class="cta primary" target="_blank" rel="noopener" href="https://www.medicare.gov/basics/costs/help/drug-costs">Medicare drug cost help</a>
-          <a class="cta" target="_blank" rel="noopener" href="https://www.ssa.gov/medicare/part-d-extra-help">Extra Help (Part D)</a>
-        </div>
-      </div>
+  <h2>Why Join</h2>
+  <ul>
+    <li>Real patient impact in NYC communities</li>
+    <li>Clinical exposure and healthcare system experience</li>
+    <li>Leadership and resume building</li>
+    <li>Strong experience for medical school applications</li>
+  </ul>
 
-      <div class="card resource-card" id="bills">
-        <p class="kicker">Bills and disputes</p>
-        <h2 class="h2">Billing help and next steps</h2>
-        <div class="callouts">
-          <a class="cta primary" target="_blank" rel="noopener" href="https://communityhealthadvocates.org/">Community Health Advocates</a>
-          <a class="cta" target="_blank" rel="noopener" href="https://www.nychealthandhospitals.org/financial-assistance/">NYC H+H financial assistance</a>
-          <a class="cta" target="_blank" rel="noopener" href="https://www.dfs.ny.gov/IDR">NY DFS dispute process</a>
-        </div>
-      </div>
+</section>
 
-      <div class="card resource-card" id="language">
-        <p class="kicker">Language access</p>
-        <h2 class="h2">Help in your language</h2>
-        <div class="callouts">
-          <a class="cta primary" target="_blank" rel="noopener" href="https://portal.311.nyc.gov/">NYC 311</a>
-          <a class="cta secondary" href="es.html">Spanish landing page</a>
-        </div>
-      </div>
-    </div>
+<!-- SIGNUP -->
+<section class="section" style="text-align:center;">
+  <h2>Apply to Volunteer</h2>
+  <p>Fill out the form below and we’ll get back to you shortly.</p>
 
-    <div class="footer">
-      <div class="smallcaps">Last updated</div>
-      March 2026
-      <div style="margin-top:10px" class="smallcaps">Safety notice</div>
-      Emergency: call <strong>911</strong>. Mental health crisis: call or text <strong>988</strong>.
-      This site provides general information and free healthcare navigation support only. It is not medical advice, diagnosis, or treatment.
-    </div>
-  </div>
+  <iframe 
+    src="https://docs.google.com/forms/d/e/1FAIpQLSdHQc8pbAnbpcW2G4h_Y_mLpiQIesHF2MR1OfSxTlebqN-xYQ/viewform?embedded=true" 
+    width="100%" 
+    height="900" 
+    frameborder="0" 
+    marginheight="0" 
+    marginwidth="0">
+    Loading…
+  </iframe>
+</section>
+
+<!-- SAFETY DISCLAIMER -->
+<section class="section small">
+  <p>
+    NYC Medical Advocates provides free navigation help only. We do not provide medical advice, diagnosis, or treatment.
+  </p>
+  <p>
+    If this is an emergency, call 911. For mental health crises, call or text 988.
+  </p>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© NYC Medical Advocates</p>
+</footer>
+
 </body>
 </html>
