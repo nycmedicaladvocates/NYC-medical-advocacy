@@ -1,105 +1,160 @@
-<!-- FILE: hub.html  (REPLACE THE ENTIRE FILE WITH THIS) -->
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Start here • NYC Medical Advocates</title>
-  <meta name="description" content="Start here: the fastest way to request help and find trusted NYC resources." />
-  <link rel="stylesheet" href="./styles.css?v=9" />
+  <title>Start Here • NYC Medical Advocates</title>
+  <meta name="description" content="Start here for free healthcare navigation help in NYC. Learn what we do, browse services, and reach us by call, text, or online form." />
+  <link rel="stylesheet" href="./styles.css?v=30" />
   <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
 </head>
 <body>
-
-<div class="topbar">
-  <div class="nav">
-    <a class="brand" href="index.html">
-      <img class="logo" src="./logo.svg" alt="" aria-hidden="true" />
-      <span class="brandtext">
-        <span class="brandtitle">NYC Medical Advocates</span>
-        <span class="brandtag">Free community-based support</span>
-      </span>
-    </a>
-
-    <div class="navlinks">
-      <a class="pill primary" href="help.html">Get help</a>
-      <a class="pill" href="tel:+12018225428" aria-label="Call NYC Medical Advocates">Call</a>
-      <a class="pill" href="sms:+12018225428" aria-label="Text NYC Medical Advocates">Text</a>
-      <a class="pill" href="help.html#form" aria-label="Open the online request form">Online form</a>
-
-      <a class="pill" href="hub.html">Start here</a>
-      <a class="pill" href="resources.html">Directory</a>
-      <a class="pill" href="about.html">About</a>
-      <a class="pill ghost" href="es.html">Español</a>
-    </div>
-  </div>
-</div>
-
-<div class="container" style="margin-top:18px;">
-  <div class="card glow">
-    <p class="kicker">START HERE</p>
-    <div class="h2">The fastest way to get help</div>
-    <p class="sub">
-      If you are not sure where to begin, use the online form or call/text us.
-      <strong>We do not provide medical advice, diagnosis, or treatment.</strong>
-      <strong>We are not an emergency service.</strong>
-    </p>
-
-    <div class="badge">100% free community-based support • Not medical advice • Not for emergencies</div>
-
-    <div class="callouts">
-      <a class="cta primary" href="help.html">Request help</a>
-      <a class="cta" href="tel:+12018225428">Call 201-822-5428</a>
-      <a class="cta" href="sms:+12018225428">Text 201-822-5428</a>
-      <a class="cta" href="help.html#form">Online form</a>
-    </div>
-
-    <hr class="sep" />
-
-    <div class="grid cols-2">
-      <div class="card strip danger">
-        <p class="kicker">Emergency</p>
-        <div class="h2">Call 911</div>
-        <p class="mini">Immediate danger or severe symptoms.</p>
-      </div>
-
-      <div class="card strip warn">
-        <p class="kicker">Mental health crisis</p>
-        <div class="h2">Call or text 988</div>
-        <p class="mini">24/7 crisis support by call, text, or chat.</p>
+  <div class="topbar">
+    <div class="nav">
+      <a class="brand" href="index.html">
+        <img class="logo" src="./logo.svg" alt="NYC Medical Advocates logo" />
+        <span class="brandtext">
+          <span class="brandtitle">NYC Medical Advocates</span>
+          <span class="brandtag">Free healthcare navigation help in NYC</span>
+        </span>
+      </a>
+      <div class="navlinks">
+        <a class="pill primary" href="help.html">Start here</a>
+        <a class="pill" href="resources.html">Directory</a>
+        <a class="pill" href="about.html">About</a>
+        <a class="pill" href="impact.html">Impact</a>
+        <a class="pill ghost" href="es.html">Español</a>
       </div>
     </div>
   </div>
 
-  <div class="grid cols-2" style="margin-top:14px;">
-    <div class="card strip">
-      <p class="kicker">Find care</p>
-      <div class="h2">Clinics, low-cost care, and coverage options</div>
-      <p class="mini">Use the directory to start exploring trusted sources and official programs.</p>
+  <div class="container hero">
+    <div class="card glow">
+      <p class="kicker">Start here</p>
+      <div class="hero-mark">
+        <img src="./logo.svg" alt="" aria-hidden="true" />
+        <div>
+          <h1 class="h1">Free healthcare navigation help in New York City</h1>
+          <p class="sub" style="margin-top:12px;">
+            We are a free volunteer program that helps people navigate the healthcare system. We help people figure out where to start, who to call, what to ask, and what documents to prepare.
+          </p>
+        </div>
+      </div>
+
+      <div class="badge">100% free healthcare navigation support • Not medical advice • Not for emergencies</div>
+
       <div class="callouts">
         <a class="cta primary" href="resources.html">Open directory</a>
-        <a class="cta" href="nyccare.html">NYC Care</a>
+        <a class="cta" href="#services">See what we help with</a>
+        <a class="cta secondary" href="#contact">Call or text us</a>
+        <a class="cta" href="#form">Online form</a>
       </div>
     </div>
 
-    <div class="card strip good">
-      <p class="kicker">Bills and paperwork</p>
-      <div class="h2">Medical bills, denials, and forms</div>
-      <p class="mini">If you have a bill or denial letter, we can help you identify who to call and what to ask.</p>
-      <div class="callouts">
-        <a class="cta primary" href="bills.html">Bills help</a>
-        <a class="cta" href="help.html">Request help</a>
+    <div class="section feature-band">
+      <div class="card strip alert-danger">
+        <p class="kicker" style="color:var(--danger)">Emergency</p>
+        <div class="h3">Call 911</div>
+        <p class="mini">Immediate danger, severe symptoms, or urgent medical emergencies.</p>
       </div>
-      <p class="mini">Navigation support only (not legal advice).</p>
+      <div class="card strip alert-warn">
+        <p class="kicker" style="color:var(--warn)">Mental health crisis</p>
+        <div class="h3">Call or text 988</div>
+        <p class="mini">24/7 crisis support by call, text, or chat.</p>
+      </div>
+      <div class="card strip alert-good">
+        <p class="kicker" style="color:var(--good)">Need non-urgent help?</p>
+        <div class="h3">Call or text 201-822-5428</div>
+        <p class="mini">If you want the fastest response, calling or texting is usually best.</p>
+      </div>
+    </div>
+
+    <div class="section grid cols-2">
+      <div class="card">
+        <p class="kicker">Who we are</p>
+        <h2 class="h2">A free community-based program</h2>
+        <p class="mini">We are not a clinic, hospital, insurance company, or emergency service. We are a volunteer navigation program that helps people understand options and identify the next practical step.</p>
+      </div>
+
+      <div class="card">
+        <p class="kicker">What we do</p>
+        <h2 class="h2">Practical help when the system feels confusing</h2>
+        <ul class="list-clean">
+          <li>Identify where to start</li>
+          <li>Find the right office, clinic, or resource</li>
+          <li>Prepare questions for a call or appointment</li>
+          <li>Organize bills, letters, and forms</li>
+          <li>Connect people to trusted public resources</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section card" id="services">
+      <div class="section-head">
+        <div>
+          <p class="kicker">What we help with</p>
+          <h2 class="h2">Common services and support topics</h2>
+        </div>
+        <a class="cta" href="resources.html">Open full directory</a>
+      </div>
+
+      <div class="grid cols-4">
+        <a class="card service-card soft" href="resources.html#no-insurance"><div class="service-icon">🏥</div><div class="h3">Finding care</div><p class="mini">Clinics, low-cost options, and uninsured care starting points.</p></a>
+        <a class="card service-card soft" href="resources.html#bills"><div class="service-icon">🧾</div><div class="h3">Bills and insurance</div><p class="mini">Bills, denials, letters, and practical next steps.</p></a>
+        <a class="card service-card soft" href="resources.html#medications"><div class="service-icon">💊</div><div class="h3">Medication costs</div><p class="mini">Official help and cost-related questions.</p></a>
+        <a class="card service-card soft" href="resources.html#mental-health"><div class="service-icon">🧠</div><div class="h3">Mental health</div><p class="mini">Trusted crisis and support resources.</p></a>
+      </div>
+    </div>
+
+    <div class="section grid cols-2" id="contact">
+      <div class="card">
+        <p class="kicker">Call or text us</p>
+        <h2 class="h2">Reach us directly</h2>
+        <p class="mini">If you want the fastest option, calling or texting is usually best.</p>
+        <div class="callouts">
+          <a class="cta primary" href="tel:+12018225428">Call 201-822-5428</a>
+          <a class="cta" href="sms:+12018225428">Text 201-822-5428</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <p class="kicker">Helpful to have ready</p>
+        <h2 class="h2">What to prepare</h2>
+        <ul class="list-clean">
+          <li>A short summary of what you need help with</li>
+          <li>Your best callback number and times</li>
+          <li>If bills: the bill, account number, and date of service</li>
+          <li>If insurance: your card and any letters you received</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section card" id="form">
+      <p class="kicker">Online request form</p>
+      <h2 class="h2">Submit a non-urgent request</h2>
+      <p class="sub">
+        This form is <strong>not monitored in real time</strong>. If you are in immediate danger or have severe symptoms, call <strong>911</strong>. If you are experiencing a mental health crisis, call or text <strong>988</strong>.
+      </p>
+      <p class="note" style="margin-top:14px;">If the form does not load, call or text <strong>201-822-5428</strong>.</p>
+
+      <div class="form-wrap">
+        <iframe
+          title="NYC Medical Advocates request form"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSdHQc8pbAnbpcW2G4h_Y_mLpiQIesHF2MR1OfSxTlebqN-xYQ/viewform?embedded=true"
+          class="form-iframe"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >Loading…</iframe>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="smallcaps">Last updated</div>
+      March 2026
+      <div style="margin-top:10px" class="smallcaps">Safety notice</div>
+      Emergency: call <strong>911</strong>. Mental health crisis: call or text <strong>988</strong>.
+      This site provides general information and free healthcare navigation support only. It is not medical advice, diagnosis, or treatment.
     </div>
   </div>
-
-  <div class="footer">
-    <div class="smallcaps">Safety notice</div>
-    Emergency: call <strong>911</strong>. Mental health crisis: call or text <strong>988</strong>.
-    This site provides general information and navigation support only. It is not medical advice, diagnosis, or treatment.
-  </div>
-</div>
-
 </body>
 </html>
