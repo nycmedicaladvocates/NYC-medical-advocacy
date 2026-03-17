@@ -2,115 +2,93 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Volunteer | NYC Medical Advocates</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Volunteer – NYC Medical Advocates</title>
+
+  <!-- IMPORTANT: this must match your working pages -->
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
 
-<div class="topbar">
-  <div class="nav">
-    <a class="brand" href="index.html">
-      <img class="logo" src="./logo.svg" alt="NYC Medical Advocates logo" />
-      <span class="brandtext">
-        <span class="brandtitle">NYC Medical Advocates</span>
-        <span class="brandtag">Free healthcare navigation help in NYC</span>
-      </span>
-    </a>
-    <div class="navlinks">
-      <a class="pill" href="help.html">Start here</a>
-      <a class="pill" href="resources.html">Directory</a>
-      <a class="pill" href="about.html">About</a>
-      <a class="pill" href="impact.html">Impact</a>
-      <a class="pill" href="volunteer.html">Volunteer</a>
-      <a class="pill ghost" href="es.html">Español</a>
+<!-- NAVBAR (same as homepage) -->
+<header class="nav">
+  <div class="nav-left">
+    <img class="logo" src="./logo.svg" alt="NYC Medical Advocates logo" />
+    <div>
+      <strong>NYC Medical Advocates</strong><br/>
+      <span class="sub">Free healthcare navigation help in NYC</span>
     </div>
   </div>
-</div>
 
-    <div class="navlinks">
-      <a class="pill" href="help.html">Start here</a>
-      <a class="pill" href="resources.html">Directory</a>
-      <a class="pill" href="about.html">About</a>
-      <a class="pill" href="impact.html">Impact</a>
-      <a class="pill ghost" href="es.html">Español</a>
-    </div>
-  </div>
-</div>
-
-<!-- HERO -->
-<section class="hero">
-  <h1>Volunteer with NYC Medical Advocates</h1>
-  <p>
-    Help people in NYC navigate healthcare for free. No prior experience required — just compassion and reliability.
-  </p>
-</section>
+  <nav class="nav-links">
+    <a href="./index.html" class="btn">Start here</a>
+    <a href="./directory.html" class="btn">Directory</a>
+    <a href="./about.html" class="btn">About</a>
+    <a href="./impact.html" class="btn">Impact</a>
+    <a href="./volunteer.html" class="btn active">Volunteer</a>
+    <a href="./es.html" class="btn">Español</a>
+  </nav>
+</header>
 
 <!-- MAIN CONTENT -->
-<section class="section">
+<main class="container">
 
-  <h2>What You'll Do</h2>
-  <ul>
-    <li>Help patients find clinics, insurance, and services</li>
-    <li>Guide people through NYC Care and public health programs</li>
-    <li>Assist with appointment scheduling and follow-up</li>
-    <li>Provide clear, simple explanations of healthcare options</li>
-  </ul>
+  <section class="card">
+    <h1>Volunteer with NYC Medical Advocates</h1>
 
-  <h2>Who We're Looking For</h2>
-  <ul>
-    <li>Students interested in medicine, public health, or service</li>
-    <li>Strong communication skills</li>
-    <li>Reliable and responsive</li>
-    <li>Spanish speakers are highly encouraged</li>
-  </ul>
+    <p>
+      Help people in NYC navigate healthcare, appointments, paperwork, and public resources.
+      No prior experience required — we provide simple guidance and support.
+    </p>
 
-  <h2>Time Commitment</h2>
-  <p>
-    Flexible. Most volunteers contribute a few hours per week depending on availability.
-  </p>
+    <ul>
+      <li>Help people find low-cost clinics and services</li>
+      <li>Assist with scheduling appointments</li>
+      <li>Guide patients through forms and paperwork</li>
+      <li>Connect people to trusted public resources</li>
+      <li>Support seniors, families, and community members</li>
+    </ul>
+  </section>
 
-  <h2>Why Join</h2>
-  <ul>
-    <li>Real patient impact in NYC communities</li>
-    <li>Clinical exposure and healthcare system experience</li>
-    <li>Leadership and resume building</li>
-    <li>Strong experience for medical school applications</li>
-  </ul>
+  <section class="card">
+    <h2>How it works</h2>
 
-</section>
+    <ul>
+      <li>Flexible — volunteer when you are available</li>
+      <li>Remote or in-person options (depending on role)</li>
+      <li>Simple scripts and guidance provided</li>
+      <li>Focus on navigation support — not medical advice</li>
+    </ul>
+  </section>
 
-<!-- SIGNUP -->
-<section class="section" style="text-align:center;">
-  <h2>Apply to Volunteer</h2>
-  <p>Fill out the form below and we’ll get back to you shortly.</p>
+  <section class="card">
+    <h2>Sign up to volunteer</h2>
 
-  <iframe 
-    src="https://docs.google.com/forms/d/e/1FAIpQLSdHQc8pbAnbpcW2G4h_Y_mLpiQIesHF2MR1OfSxTlebqN-xYQ/viewform?embedded=true" 
-    width="100%" 
-    height="900" 
-    frameborder="0" 
-    marginheight="0" 
-    marginwidth="0">
-    Loading…
-  </iframe>
-</section>
+    <p>Scan the QR code or use the form below to get started.</p>
 
-<!-- SAFETY DISCLAIMER -->
-<section class="section small">
-  <p>
-    NYC Medical Advocates provides free navigation help only. We do not provide medical advice, diagnosis, or treatment.
-  </p>
-  <p>
-    If this is an emergency, call 911. For mental health crises, call or text 988.
-  </p>
-</section>
+    <!-- REPLACE WITH YOUR ACTUAL FORM -->
+    <div style="text-align:center; margin-top:20px;">
+      <img src="./qr-volunteer.png" alt="Volunteer form QR code" style="width:180px;" />
+    </div>
 
-<!-- FOOTER -->
-<footer class="footer">
-  <p>© NYC Medical Advocates</p>
-</footer>
+    <div style="text-align:center; margin-top:20px;">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdHQc8pbAnbpcW2G4h_Y_mLpiQIesHF2MR1OfSxTlebqN-xYQ/viewform"
+         class="btn primary"
+         target="_blank">
+        Open Volunteer Form
+      </a>
+    </div>
+  </section>
+
+  <section class="card small-note">
+    <p>
+      100% free community-based support • Not medical advice • Not for emergencies<br/>
+      Emergency: call 911 • Mental health crisis: call/text 988
+    </p>
+  </section>
+
+</main>
 
 </body>
 </html>
