@@ -323,176 +323,132 @@ iframe{
   border-radius: 14px;
   background: rgba(255,255,255,.02);
 }
-/* ---------- HELP PAGE MOBILE IMPROVEMENTS ---------- */
-.help-container{
-  margin-top: 18px;
+/* ---------- HELP PAGE MOBILE HEADER CLEANUP ---------- */
+
+.help-page .topbar{
+  background: rgba(5,8,22,.82);
 }
 
-.help-hero{
-  padding: 18px;
-}
-
-.help-title{
-  font-size: 28px;
-  line-height: 1.15;
-}
-
-.help-sub{
-  max-width: 760px;
-}
-
-.help-badge{
-  max-width: 100%;
-  white-space: normal;
-  line-height: 1.4;
-}
-
-.help-main-actions{
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+.help-page .nav{
+  padding: 12px 14px;
   gap: 10px;
 }
 
-.help-action{
-  width: 100%;
-  min-height: 48px;
-}
-
-.help-alert-grid,
-.help-section-grid{
-  margin-top: 14px;
-}
-
-.help-directory-card,
-.help-form-card{
-  margin-top: 14px;
-}
-
-.help-topic-buttons{
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+.help-page .brand{
   gap: 10px;
 }
 
-.help-topic{
-  width: 100%;
-  min-height: 46px;
+.help-page .logo{
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
 }
 
-.help-form-wrap{
-  margin-top: 14px;
+.help-page .brandtitle{
+  font-size: 14px;
 }
 
-.help-form-iframe{
-  width: 100%;
-  height: 1500px;
-  border: 0;
-  border-radius: 14px;
-  background: rgba(255,255,255,.02);
+.help-page .brandtag{
+  font-size: 11px;
 }
 
-@media (max-width: 979px){
-  .help-title{
-    font-size: 24px;
+.help-page .container{
+  padding-top: 12px;
+}
+
+.help-page .help-hero{
+  padding-top: 14px;
+}
+
+@media (max-width: 860px){
+  .help-page .nav{
+    align-items: stretch;
   }
 
-  .help-main-actions{
+  .help-page .help-navlinks{
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    width: 100%;
+    overflow: visible;
+    padding-bottom: 0;
   }
 
-  .help-topic-buttons{
-    grid-template-columns: 1fr 1fr;
+  .help-page .help-navlinks .pill{
+    justify-content: center;
+    width: 100%;
+    min-height: 44px;
+    padding: 10px 12px;
+    font-size: 15px;
   }
 
-  .help-form-iframe{
-    height: 1350px;
+  .help-page .brand{
+    white-space: normal;
+  }
+
+  .help-page .brandtext{
+    min-width: 0;
   }
 }
 
 @media (max-width: 640px){
-  .help-container{
-    padding: 14px;
+  .help-page .nav{
+    padding: 10px 12px;
   }
 
-  .help-hero,
-  .card{
-    padding: 14px;
+  .help-page .logo{
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
   }
 
-  .help-title{
-    font-size: 22px;
-    line-height: 1.2;
+  .help-page .brandtitle{
+    font-size: 13.5px;
+    line-height: 1.1;
   }
 
-  .sub{
+  .help-page .brandtag{
+    font-size: 10.5px;
+    line-height: 1.1;
+  }
+
+  .help-page .help-navlinks .pill{
+    min-height: 42px;
+    padding: 9px 10px;
+    font-size: 14px;
+  }
+
+  .help-page .help-title{
+    font-size: 21px;
+  }
+
+  .help-page .help-sub{
     font-size: 15px;
+    line-height: 1.5;
   }
 
-  .h2{
-    font-size: 18px;
-  }
-
-  .mini{
-    font-size: 13px;
-  }
-
-  .badge{
-    display: block;
-    border-radius: 16px;
-    padding: 12px;
-  }
-
-  .help-main-actions{
-    grid-template-columns: 1fr;
-  }
-
-  .help-topic-buttons{
-    grid-template-columns: 1fr;
-  }
-
-  .callouts{
-    gap: 8px;
-  }
-
-  .cta{
-    width: 100%;
-    min-height: 48px;
-    padding: 12px;
-  }
-
-  .grid.cols-3,
-  .grid.cols-2{
-    grid-template-columns: 1fr !important;
-  }
-
-  .help-form-iframe{
-    height: 1240px;
-  }
-
-  ul, ol{
-    margin-left: 16px;
-    padding-left: 0;
+  .help-page .badge{
+    font-size: 14px;
+    line-height: 1.35;
+    padding: 12px 14px;
   }
 }
 
 @media (max-width: 420px){
-  .help-container{
-    padding: 12px;
+  .help-page .help-navlinks{
+    grid-template-columns: 1fr 1fr;
   }
 
-  .help-title{
-    font-size: 20px;
+  .help-page .help-navlinks .pill{
+    font-size: 13.5px;
+    padding: 9px 8px;
   }
 
-  .brandtitle{
-    font-size: 14px;
+  .help-page .brandtitle{
+    font-size: 13px;
   }
 
-  .brandtag{
-    font-size: 11px;
-  }
-
-  .help-form-iframe{
-    height: 1180px;
+  .help-page .brandtag{
+    font-size: 10px;
   }
 }
