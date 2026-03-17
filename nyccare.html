@@ -1,12 +1,11 @@
-<!-- FILE: nyccare.html  (REPLACE THE ENTIRE FILE WITH THIS) -->
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>NYC Care • NYC Medical Advocates</title>
-  <meta name="description" content="NYC Care: a starting point for New Yorkers who are uninsured or underinsured. We can help you figure out next steps." />
-  <link rel="stylesheet" href="./styles.css?v=9" />
+  <meta name="description" content="Learn about NYC Care and how to start if you are uninsured or looking for lower-cost care in New York City." />
+  <link rel="stylesheet" href="./styles.css?v=20" />
   <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
 </head>
 <body>
@@ -14,72 +13,123 @@
 <div class="topbar">
   <div class="nav">
     <a class="brand" href="index.html">
-      <img class="logo" src="./logo.svg" alt="" aria-hidden="true" />
+      <img class="logo" src="./logo.png" alt="NYC Medical Advocates logo" />
       <span class="brandtext">
         <span class="brandtitle">NYC Medical Advocates</span>
-        <span class="brandtag">Free community-based support</span>
+        <span class="brandtag">Free healthcare navigation help in NYC</span>
       </span>
     </a>
-
     <div class="navlinks">
-      <a class="pill primary" href="help.html">Get help</a>
-      <a class="pill" href="tel:+12018225428" aria-label="Call NYC Medical Advocates">Call</a>
-      <a class="pill" href="sms:+12018225428" aria-label="Text NYC Medical Advocates">Text</a>
-      <a class="pill" href="help.html#form" aria-label="Open the online request form">Online form</a>
-
-      <a class="pill" href="hub.html">Start here</a>
+      <a class="pill" href="help.html">Start here</a>
       <a class="pill" href="resources.html">Directory</a>
       <a class="pill" href="about.html">About</a>
+      <a class="pill" href="impact.html">Impact</a>
       <a class="pill ghost" href="es.html">Español</a>
     </div>
   </div>
 </div>
 
-<div class="container" style="margin-top:18px;">
+<div class="container hero">
   <div class="card glow">
-    <p class="kicker">NO INSURANCE STARTING POINT</p>
-    <div class="h2">NYC Care</div>
+    <p class="kicker">NYC Care</p>
+    <div class="h2">A starting point for New Yorkers without affordable coverage</div>
     <p class="sub">
-      NYC Care is an option for New Yorkers who do not qualify for or cannot afford health insurance.
-      Use the official NYC Care page for details, and request help if you want support choosing next steps.
-      <strong>Not medical advice.</strong> <strong>Not for emergencies.</strong>
+      NYC Care is a program from NYC Health + Hospitals for New Yorkers who do not qualify for or cannot afford health insurance.
+      This page is here to help you understand where to start and what kind of questions to prepare.
+      <strong>We do not decide eligibility.</strong> <strong>We do not provide medical advice.</strong>
     </p>
-    <div class="badge">100% free community-based support • Not medical advice • Not for emergencies</div>
+    <div class="badge">100% free healthcare navigation support • Not medical advice • Not for emergencies</div>
 
     <div class="callouts">
-      <a class="cta primary" href="help.html">Request help</a>
-      <a class="cta" target="_blank" rel="noopener" href="https://www.nychealthandhospitals.org/nyccare/">Official NYC Care</a>
-      <a class="cta" href="resources.html">Directory</a>
+      <a class="cta primary" target="_blank" rel="noopener" href="https://www.nychealthandhospitals.org/nyccare/">Open official NYC Care site</a>
+      <a class="cta" href="help.html">Start here</a>
+      <a class="cta secondary" href="help.html#contact">Call or text us</a>
     </div>
   </div>
 
-  <div class="grid cols-2" style="margin-top:14px;">
-    <div class="card strip">
+  <div class="section feature-band">
+    <div class="card strip alert-danger">
+      <p class="kicker" style="color:var(--danger)">Emergency</p>
+      <div class="h3">Call 911</div>
+      <p class="mini">Immediate danger, severe symptoms, or urgent medical emergencies.</p>
+    </div>
+    <div class="card strip alert-warn">
+      <p class="kicker" style="color:var(--warn)">Mental health crisis</p>
+      <div class="h3">Call or text 988</div>
+      <p class="mini">24/7 crisis support by call, text, or chat.</p>
+    </div>
+    <div class="card strip alert-good">
+      <p class="kicker" style="color:var(--good)">Need help choosing?</p>
+      <div class="h3">Call or text 201-822-5428</div>
+      <p class="mini">We can help you prepare questions and identify the best official starting point.</p>
+    </div>
+  </div>
+
+  <div class="section grid cols-2">
+    <div class="card">
+      <p class="kicker">What NYC Care is</p>
+      <div class="h2">A healthcare access program, not insurance</div>
+      <p class="mini">
+        NYC Care can help connect eligible New Yorkers to care through NYC Health + Hospitals.
+        It is often useful for people who are uninsured and want a clearer path into the healthcare system.
+      </p>
+    </div>
+
+    <div class="card">
       <p class="kicker">What we can do</p>
-      <div class="h2">Navigation support</div>
-      <ul>
-        <li>Help you identify what information you may need before you apply or call</li>
-        <li>Help you find where to start within NYC Health + Hospitals</li>
-        <li>Help you prepare questions and next steps</li>
+      <div class="h2">Navigation support only</div>
+      <ul class="list-clean">
+        <li>Help identify the official starting point</li>
+        <li>Help prepare questions before you call or apply</li>
+        <li>Help organize documents and next steps</li>
+        <li>Help compare NYC Care with other official coverage options</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section grid cols-2">
+    <div class="card">
+      <p class="kicker">Helpful questions to ask</p>
+      <div class="h2">Before you contact the program</div>
+      <ul class="list-clean">
+        <li>What documents should I bring?</li>
+        <li>Where do I go to start enrollment?</li>
+        <li>What care locations are available through NYC Health + Hospitals?</li>
+        <li>If I might qualify for insurance, should I also look at NY State of Health?</li>
       </ul>
     </div>
 
-    <div class="card strip good">
-      <p class="kicker">Official resource</p>
-      <div class="h2">Use the official site for program details</div>
+    <div class="card">
+      <p class="kicker">Important note</p>
+      <div class="h2">Use the official program for current details</div>
       <p class="mini">
-        Eligibility and program details can change. Please confirm current requirements directly with NYC Care.
+        Program details, eligibility rules, and locations can change. Always confirm current information with the official NYC Care page or NYC Health + Hospitals directly.
       </p>
       <div class="callouts">
-        <a class="cta primary" target="_blank" rel="noopener" href="https://www.nychealthandhospitals.org/nyccare/">Open NYC Care</a>
+        <a class="cta primary" target="_blank" rel="noopener" href="https://www.nychealthandhospitals.org/nyccare/">Official NYC Care</a>
+        <a class="cta" target="_blank" rel="noopener" href="https://nystateofhealth.ny.gov/">NY State of Health</a>
       </div>
     </div>
   </div>
 
+  <div class="section card">
+    <p class="kicker">Need a human to help?</p>
+    <div class="h2">We can help you prepare your next step</div>
+    <p class="mini">
+      If you are not sure whether NYC Care is the right place to start, we can help you think through the next step and gather the right questions before you call.
+    </p>
+    <div class="callouts">
+      <a class="cta primary" href="help.html">Start here</a>
+      <a class="cta" href="help.html#contact">Call or text</a>
+      <a class="cta" href="resources.html#no-insurance">See related resources</a>
+    </div>
+  </div>
+
   <div class="footer">
-    <div class="smallcaps">Safety notice</div>
-    Emergency: call <strong>911</strong>. Mental health crisis: call or text <strong>988</strong>.
-    This site provides general information and navigation support only. It is not medical advice, diagnosis, or treatment.
+    <div class="smallcaps">Last updated</div>
+    March 2026
+    <div style="margin-top:10px" class="smallcaps">Safety notice</div>
+    Emergency: call <strong>911</strong>. Mental health crisis: call or text <strong>988</strong>. This site provides general information and free healthcare navigation support only. It is not medical advice, diagnosis, or treatment.
   </div>
 </div>
 
