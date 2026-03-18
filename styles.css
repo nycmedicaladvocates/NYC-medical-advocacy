@@ -24,7 +24,11 @@
 }
 
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
+
+html{
+  scroll-behavior:smooth;
+  scroll-padding-top:120px;
+}
 
 body{
   margin:0;
@@ -379,23 +383,6 @@ summary:focus-visible{
   background:#fff;
 }
 
-.metric{
-  display:flex;
-  flex-direction:column;
-  gap:6px;
-}
-
-.metric-num{
-  font-weight:800;
-  font-size:22px;
-  letter-spacing:-.02em;
-}
-
-.metric-label{
-  font-size:14px;
-  color:var(--muted);
-}
-
 details{
   margin-top:12px;
   border:1px solid var(--line);
@@ -431,6 +418,22 @@ iframe{
   background:#fff;
 }
 
+/* Anchor scroll fix for sticky header */
+.card[id],
+.section[id],
+[id="mental-health"],
+[id="no-insurance"],
+[id="transportation"],
+[id="medications"],
+[id="bills"],
+[id="language"],
+[id="portal-help"],
+[id="seniors"],
+[id="homeless-support"],
+[id="recovery"]{
+  scroll-margin-top:120px;
+}
+
 @media (max-width: 980px){
   .hero-grid,
   .feature-band,
@@ -442,16 +445,9 @@ iframe{
 
   .h1{font-size:36px}
   .h2{font-size:24px}
-
   .hero-mark{align-items:flex-start}
-
-  .nav{
-    padding:12px 18px;
-  }
-
-  .container{
-    padding:18px;
-  }
+  .nav{padding:12px 18px}
+  .container{padding:18px}
 }
 
 @media (max-width: 640px){
