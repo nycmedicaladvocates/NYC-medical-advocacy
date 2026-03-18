@@ -1,60 +1,180 @@
-<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="border" x1="20" y1="20" x2="236" y2="236" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#7CC6F3"/>
-      <stop offset="1" stop-color="#78C52C"/>
-    </linearGradient>
-    <linearGradient id="sky" x1="128" y1="36" x2="128" y2="168" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#8FD3F4"/>
-      <stop offset="1" stop-color="#EEF8F1"/>
-    </linearGradient>
-    <linearGradient id="water" x1="42" y1="162" x2="214" y2="170" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#38BDF8"/>
-      <stop offset="1" stop-color="#0EA5E9"/>
-    </linearGradient>
-  </defs>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Naloxone & Recovery Support • NYC Medical Advocates</title>
+  <meta
+    name="description"
+    content="Free navigation help for naloxone, overdose prevention, recovery resources, and non-urgent next steps in NYC."
+  />
+  <link rel="stylesheet" href="./styles.css?v=31" />
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="nav">
+      <a class="brand" href="index.html">
+        <img class="logo" src="./logo.svg" alt="NYC Medical Advocates logo" />
+        <span class="brandtext">
+          <span class="brandtitle">NYC Medical Advocates</span>
+          <span class="brandtag">Free healthcare navigation help in NYC</span>
+        </span>
+      </a>
+      <div class="navlinks">
+        <a class="pill" href="index.html">Home</a>
+        <a class="pill" href="help.html">Start Here</a>
+        <a class="pill" href="clinics.html">Find Care</a>
+        <a class="pill" href="resources.html">Directory</a>
+        <a class="pill" href="bills.html">Bills</a>
+        <a class="pill" href="nyccare.html">NYC Care</a>
+        <a class="pill primary" href="narcan.html">Naloxone</a>
+        <a class="pill" href="about.html">About</a>
+        <a class="pill" href="volunteer.html">Volunteer</a>
+        <a class="pill" href="faq.html">FAQ</a>
+        <a class="pill ghost" href="es.html">Español</a>
+      </div>
+    </div>
+  </div>
 
-  <rect x="14" y="14" width="228" height="228" rx="54" fill="#F8FAFC" stroke="url(#border)" stroke-width="8"/>
-  <rect x="22" y="22" width="212" height="212" rx="46" fill="#F8FBFD" stroke="#E2E8F0" stroke-width="4"/>
+  <div class="container hero">
+    <div class="card glow">
+      <p class="kicker">Naloxone and recovery support</p>
+      <div class="hero-mark">
+        <img src="./logo.svg" alt="" aria-hidden="true" />
+        <div>
+          <h1 class="h1">Help finding overdose prevention and recovery resources in NYC</h1>
+          <p class="sub" style="margin-top:12px;">
+            This page is for people looking for naloxone, overdose prevention information,
+            harm reduction resources, and recovery-related starting points. We provide free
+            navigation help only. We do not provide medical advice, treatment, or emergency services.
+          </p>
+        </div>
+      </div>
 
-  <path d="M58 116C62 80 88 56 128 56C168 56 194 80 198 116" stroke="url(#border)" stroke-width="8" stroke-linecap="round"/>
+      <div class="badge">
+        100% free support • Navigation help only • Not medical advice • Not for emergencies
+      </div>
 
-  <g stroke="#FBBF24" stroke-width="4" stroke-linecap="round">
-    <path d="M128 46V34"/>
-    <path d="M106 50L101 39"/>
-    <path d="M150 50L155 39"/>
-    <path d="M86 61L77 52"/>
-    <path d="M170 61L179 52"/>
-  </g>
+      <div class="callouts">
+        <a class="cta primary" href="help.html#contact">Call or text us</a>
+        <a class="cta secondary" href="help.html#form">Fill out the form</a>
+        <a class="cta" href="help.html">Get non-urgent help</a>
+      </div>
+    </div>
 
-  <rect x="38" y="66" width="180" height="104" rx="20" fill="url(#sky)"/>
+    <div class="section feature-band">
+      <div class="card strip alert-danger">
+        <p class="kicker" style="color:var(--danger)">Emergency</p>
+        <div class="h3">Call 911</div>
+        <p class="mini">
+          If someone is unresponsive, not breathing, or may be overdosing, call 911 immediately.
+        </p>
+      </div>
 
-  <path d="M44 124C56 112 73 110 88 114C95 103 109 98 123 101C134 93 148 91 162 98C175 92 194 96 205 110C215 106 226 111 230 120V152H44V124Z" fill="#F8FBFC"/>
+      <div class="card strip alert-warn">
+        <p class="kicker" style="color:var(--warn)">Mental health crisis</p>
+        <div class="h3">Call or text 988</div>
+        <p class="mini">
+          24/7 support for emotional distress, suicidal thoughts, or mental health crisis.
+        </p>
+      </div>
 
-  <rect x="68" y="100" width="10" height="26" fill="#7ABCE7"/>
-  <rect x="78" y="90" width="12" height="36" fill="#66B1E4"/>
-  <rect x="90" y="80" width="14" height="46" fill="#4CA2DE"/>
-  <rect x="104" y="94" width="14" height="32" fill="#9BCBEA"/>
+      <div class="card strip alert-good">
+        <p class="kicker" style="color:var(--good)">Need guidance?</p>
+        <div class="h3">Call or text 201-822-5428</div>
+        <p class="mini">
+          For non-urgent help, we can help guide you to the right resources and next steps.
+        </p>
+      </div>
+    </div>
 
-  <circle cx="128" cy="90" r="22" fill="#FBBF24"/>
-  <circle cx="128" cy="90" r="15" fill="#FFF7D1"/>
+    <div class="section grid cols-2">
+      <div class="card">
+        <p class="kicker">What this page can help with</p>
+        <h2 class="h2">Common reasons people come here</h2>
+        <ul class="list-clean">
+          <li>Finding naloxone information and overdose prevention resources</li>
+          <li>Finding recovery-related starting points in NYC</li>
+          <li>Understanding where to look for harm reduction support</li>
+          <li>Getting guided to the right non-urgent next step</li>
+        </ul>
 
-  <path d="M44 126C67 114 93 112 118 118C146 124 175 122 212 112V148H44V126Z" fill="#D9ECF6"/>
+        <div class="callouts">
+          <a class="cta primary" href="help.html#contact">Contact us directly</a>
+          <a class="cta secondary" href="help.html#form">Request help by form</a>
+        </div>
+      </div>
 
-  <path d="M44 132C70 118 101 120 128 131C149 120 180 114 212 120V156H44V132Z" fill="#65A30D"/>
-  <path d="M44 148C70 132 98 132 126 140C150 147 179 146 212 136V162H44V148Z" fill="#B7D929"/>
+      <div class="card">
+        <p class="kicker">Important limits</p>
+        <h2 class="h2">What we do not do</h2>
+        <ul class="list-clean">
+          <li>We do not provide emergency response</li>
+          <li>We do not give medical advice or treatment recommendations</li>
+          <li>We do not replace a doctor, hospital, treatment program, or emergency services</li>
+          <li>We do not guarantee eligibility or program availability</li>
+        </ul>
+      </div>
+    </div>
 
-  <path d="M44 158C73 150 100 150 126 154C151 158 179 159 212 154V180H44V158Z" fill="#CFEAF7"/>
-  <path d="M44 166C76 158 103 159 128 163C153 167 181 168 212 163V184H44V166Z" fill="url(#water)"/>
+    <div class="section grid cols-3">
+      <div class="card service-card">
+        <div class="service-icon">🛟</div>
+        <div class="h3">Need help finding the right support?</div>
+        <p class="mini">
+          Call, text, or fill out the form and we will help guide you through the process.
+        </p>
+        <div class="callouts">
+          <a class="cta primary" href="help.html#contact">Call or text</a>
+          <a class="cta secondary" href="help.html#form">Fill out form</a>
+        </div>
+      </div>
 
-  <circle cx="102" cy="112" r="12" fill="#F59E0B" stroke="white" stroke-width="4"/>
-  <path d="M88 154L93 128C95 121 101 118 107 120C114 122 119 128 120 136L124 159H88V154Z" fill="#FDBA74"/>
+      <div class="card service-card">
+        <div class="service-icon">📋</div>
+        <div class="h3">Need help figuring out next steps?</div>
+        <p class="mini">
+          We can help organize the next practical step and point you to trusted resources.
+        </p>
+        <div class="callouts">
+          <a class="cta primary" href="help.html#contact">Contact us</a>
+        </div>
+      </div>
 
-  <circle cx="128" cy="98" r="15" fill="#0EA5E9" stroke="white" stroke-width="5"/>
-  <path d="M108 170L110 126C111 115 119 110 128 110C137 110 145 115 146 126L148 170H108Z" fill="#38BDF8"/>
-  <rect x="123" y="122" width="10" height="28" fill="white"/>
-  <rect x="114" y="131" width="28" height="10" fill="white"/>
+      <div class="card service-card">
+        <div class="service-icon">🌐</div>
+        <div class="h3">Need language help?</div>
+        <p class="mini">
+          We can help guide you to resources and help you prepare what to ask for.
+        </p>
+        <div class="callouts">
+          <a class="cta primary" href="help.html#form">Get help by form</a>
+          <a class="cta" href="es.html">Español</a>
+        </div>
+      </div>
+    </div>
 
-  <circle cx="156" cy="112" r="12" fill="#84CC16" stroke="white" stroke-width="4"/>
-  <path d="M144 156L147 132C149 123 156 120 162 121C169 123 173 129 174 137L179 160H144V156Z" fill="#86EFAC"/>
-</svg>
+    <div class="section card" id="contact">
+      <p class="kicker">Contact us</p>
+      <h2 class="h2">We can help guide you through the process</h2>
+      <p class="sub">
+        For non-urgent help, call or text <strong>201-822-5428</strong> or use the online form.
+        We can help you figure out what kind of resource to look for and what to do next.
+      </p>
+
+      <div class="callouts">
+        <a class="cta primary" href="help.html#contact">Call or text us</a>
+        <a class="cta secondary" href="help.html#form">Fill out the form</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="smallcaps">Safety notice</div>
+      Emergency: call <strong>911</strong>. Mental health crisis: call or text <strong>988</strong>.
+      This site provides general information and free healthcare navigation support only. It is not
+      medical advice, diagnosis, treatment, or emergency care.
+    </div>
+  </div>
+</body>
+</html>
